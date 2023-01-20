@@ -5,7 +5,7 @@ import Header from "./ui/header";
 
 const About = () => {
   return (
-    <Container maxWidth={"xl"}>
+    <Container maxWidth={"xl"} sx={{ mt: "80px" }}>
       <Box sx={{ px: "150px" }}>
         <Header text="О СОРЕВНОВАНИЯХ" />
       </Box>

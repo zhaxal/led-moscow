@@ -10,7 +10,6 @@ const Cover = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           height: "768px",
-          width: "1240px",
         }}
       >
         <Stack
