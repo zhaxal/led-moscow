@@ -4,6 +4,7 @@ import About from "components/about";
 import Programs from "components/programs";
 import Participants from "components/participants";
 import Tutorial from "components/tutorial";
+import Footer from "components/footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Programs />
       <Participants />
       <Tutorial />
+      <Footer />
     </Box>
   );
 }
