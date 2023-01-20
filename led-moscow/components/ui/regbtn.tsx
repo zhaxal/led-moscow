@@ -17,8 +17,8 @@ const RegBtn = ({ onClick }: Props) => {
             backgroundSize: "cover",
             minHeight: "95px",
             justifyContent: "center",
-            alignItems: "center"
-
+            alignItems: "center",
+            cursor: "pointer"
         }}
             onClick={onClick}
             onMouseEnter={() => setHover(true)}
