@@ -1,4 +1,9 @@
-import { Box, Container, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Container,
+  Stack,
+  Typography,
+} from "@mui/material";
 import React from "react";
 import Groups from "./ui/groups";
 import Header from "./ui/header";
@@ -114,7 +119,7 @@ const Participants = ({ isMobile }: Props) => {
               "url(/images/backgrounds/mobile/participantsBg.png)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            height: "520px",
+            height: "550px",
             position: "relative",
             px: "40px",
           }}

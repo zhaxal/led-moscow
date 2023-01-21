@@ -1,4 +1,10 @@
-import { Box, Container, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Container,
+  Stack,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import React from "react";
 import Header from "./ui/header";
 import RegBtn from "./ui/regbtn";
@@ -8,6 +14,8 @@ interface Props {
 }
 
 const Tutorial = ({ isMobile }: Props) => {
+  const isSmaller = useMediaQuery("(min-width:400px)");
+
   return isMobile ? (
     <Container maxWidth={"xl"} sx={{ mt: "80px" }}>
       <Box sx={{ px: "150px" }}>
@@ -108,7 +116,7 @@ const Tutorial = ({ isMobile }: Props) => {
             <Typography
               sx={{
                 fontFamily: "Gotham Pro Light",
-                fontSize: "20px",
+                fontSize: isSmaller ? "20px" : "15px",
                 lineHeight: "20px",
                 fontWeight: 400,
                 color: "white",
@@ -144,7 +152,7 @@ const Tutorial = ({ isMobile }: Props) => {
                 sx={{
                   fontFamily: "Gotham Pro Regular",
                   fontWeight: 700,
-                  fontSize: "24px",
+                  fontSize: isSmaller ? "24px" : "18px",
                   lineHeight: "23px",
                   color: "white",
                   textAlign: "center",

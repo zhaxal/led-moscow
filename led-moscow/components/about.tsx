@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Typography, useMediaQuery } from "@mui/material";
 import { Stack } from "@mui/system";
 import React from "react";
 import Header from "./ui/header";
@@ -8,6 +8,8 @@ interface Props {
 }
 
 const About = ({ isMobile }: Props) => {
+  const isSmaller = useMediaQuery("(min-width:400px)");
+
   return isMobile ? (
     <Container maxWidth={"xl"} sx={{ mt: "80px" }}>
       <Box sx={{ px: "150px", mb: "46px" }}>
@@ -72,7 +74,7 @@ const About = ({ isMobile }: Props) => {
             backgroundImage: "url(/images/backgrounds/mobile/about-top.png)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            height: "524px",  
+            height: "524px",
             width: "100%",
           }}
         >
@@ -87,7 +89,7 @@ const About = ({ isMobile }: Props) => {
             <Typography
               sx={{
                 fontFamily: "Gotham Pro Light",
-                fontSize: "16px",
+                fontSize: isSmaller ? "16px" : "14px",
                 lineHeight: "15.31px",
                 fontWeight: 400,
                 color: "white",
