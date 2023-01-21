@@ -42,7 +42,6 @@ const About = ({ isMobile }: Props) => {
             }}
             dangerouslySetInnerHTML={{
               __html: `
-              <body id='tinymce' class='mce-content-body ' data-id='text' spellcheck='false' contenteditable='true'>
               <span style='margin-bottom: 10px; padding-left: 1.5em;
               text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
               text-indent:-1.5em;'><strong>«Лёд надежды нашей»</strong>  –   одно из старейших конькобежных состязаний в
@@ -63,8 +62,7 @@ const About = ({ isMobile }: Props) => {
                     <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><strong>Светлана Журова</strong> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
                     <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><strong>Дмитрий Дорофеев</strong> – серебряный призёр Олимпийских игр; </li>
                     <li><strong>Екатерина Лобышева</strong> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
-                </ul>
-              </body>`,
+                </ul>`,
             }}
           />
         </Stack>
@@ -101,8 +99,7 @@ const About = ({ isMobile }: Props) => {
                 width: "80%",
               }}
               dangerouslySetInnerHTML={{
-                __html: `<body id='tinymce' class='mce-content-body ' data-id='text' spellcheck='false' contenteditable='true'>
-                <span style='margin-bottom: 10px; padding-left: 1.5em;
+                __html: `<span style='margin-bottom: 10px; padding-left: 1.5em;
                 text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
                 text-indent:-1.5em;'><strong>«Лёд надежды нашей»</strong>  –   одно из старейших конькобежных состязаний в
                 России. Мероприятие ежегодно объединяет сотни любителей
@@ -122,8 +119,7 @@ const About = ({ isMobile }: Props) => {
                       <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><strong>Светлана Журова</strong> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
                       <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><strong>Дмитрий Дорофеев</strong> – серебряный призёр Олимпийских игр; </li>
                       <li><strong>Екатерина Лобышева</strong> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
-                  </ul>
-                </body>`,
+                  </ul>`,
               }}
             />
           </Stack>

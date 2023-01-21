@@ -51,7 +51,6 @@ const Tutorial = ({ isMobile }: Props) => {
             }}
             dangerouslySetInnerHTML={{
               __html: `
-                            <body id='tinymce' class='mce-content-body ' data-id='text' spellcheck='false' contenteditable='true'>
                             <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>1. Зарегистрироваться на сайте проекта <strong style='text-decoration: underline; text-decoration-thickness: 1px'>до 3 февраля</strong></div>
                             <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>2. Собрать пакет документов (оригиналы):</div>
                             <ul style="margin-left: 3em">
@@ -61,8 +60,7 @@ const Tutorial = ({ isMobile }: Props) => {
                                 <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
                             </ul>
                             <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>3. Предоставить документы в зоне регистрации перед </br> началом соревнований.</div>
-                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>4. На старт! Желаем успехов!</div>
-                            </body>`,
+                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>4. На старт! Желаем успехов!</div>`,
             }}
           />
           <Stack
@@ -129,7 +127,6 @@ const Tutorial = ({ isMobile }: Props) => {
               }}
               dangerouslySetInnerHTML={{
                 __html: `
-                            <body id='tinymce' class='mce-content-body ' data-id='text' spellcheck='false' contenteditable='true'>
                             <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>1. Зарегистрироваться на сайте проекта <strong style='text-decoration: underline; text-decoration-thickness: 1px'>до 3 февраля</strong></div>
                             <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>2. Собрать пакет документов (оригиналы):</div>
                             <ul style="margin-left: 3em">
@@ -139,8 +136,7 @@ const Tutorial = ({ isMobile }: Props) => {
                                 <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
                             </ul>
                             <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>3. Предоставить документы в зоне регистрации перед </br> началом соревнований.</div>
-                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>4. На старт! Желаем успехов!</div>
-                            </body>`,
+                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>4. На старт! Желаем успехов!</div>`,
               }}
             />
             <Stack

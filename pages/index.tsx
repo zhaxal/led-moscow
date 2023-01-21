@@ -16,7 +16,7 @@ export default function Home() {
       <About isMobile={matches}/>
       <Programs isMobile={matches}/>
       <Participants isMobile={matches}/>
-      <Tutorial isMobile={matches}/>
+      {/* <Tutorial isMobile={matches}/> */}
       <Footer isMobile={matches}/>
     </Box>
   );
