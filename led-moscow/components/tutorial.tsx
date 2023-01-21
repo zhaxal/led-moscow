@@ -11,7 +11,7 @@ const Tutorial = ({ isMobile }: Props) => {
   return isMobile ? (
     <Container maxWidth={"xl"} sx={{ mt: "80px" }}>
       <Box sx={{ px: "150px" }}>
-        <Header text="КАК ПРИНЯТЬ УЧАСТИЕ" />
+        <Header isMobile={isMobile} text="КАК ПРИНЯТЬ УЧАСТИЕ" />
       </Box>
       <Box
         sx={{
@@ -82,12 +82,106 @@ const Tutorial = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile}  onClick={() => {}} />
+          <RegBtn isMobile={isMobile} onClick={() => {}} />
         </Box>
       </Box>
     </Container>
   ) : (
-    <Box></Box>
+    <Box sx={{ mt: "32px", width: "100%" }}>
+      <Stack>
+        <Header isMobile={isMobile} text="КАК ПРИНЯТЬ УЧАСТИЕ" />
+        <Box
+          sx={{
+            backgroundImage: "url(/images/backgrounds/mobile/tutorBg.png)",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            height: "671px",
+            width: "100%",
+          }}
+        >
+          <Stack
+            sx={{ height: "100%", width: "100%" }}
+            justifyContent={"center"}
+            alignItems={"center"}
+            spacing={2}
+          >
+            <Typography
+              sx={{
+                fontFamily: "Gotham Pro Light",
+                fontSize: "20px",
+                lineHeight: "20px",
+                fontWeight: 400,
+                color: "white",
+                width: "80%",
+              }}
+              dangerouslySetInnerHTML={{
+                __html: `
+                            <body id='tinymce' class='mce-content-body ' data-id='text' spellcheck='false' contenteditable='true'>
+                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>1. Зарегистрироваться на сайте проекта <strong style='text-decoration: underline; text-decoration-thickness: 1px'>до 3 февраля</strong></div>
+                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>2. Собрать пакет документов (оригиналы):</div>
+                            <ul style="margin-left: 3em">
+                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>паспорт или свидетельство о рождении;</li>
+                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис ОМС или ДМС;</li>
+                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис страхования жизни и здоровья от несчастных случаев, действительный на день соревнования;</li>
+                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
+                            </ul>
+                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>3. Предоставить документы в зоне регистрации перед </br> началом соревнований.</div>
+                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>4. На старт! Желаем успехов!</div>
+                            </body>`,
+              }}
+            />
+            <Stack
+              sx={{
+                width: "80%",
+                height: "42px",
+                justifyContent: "center",
+                alignItems: "center",
+                border: "1px dashed #FFFFFF",
+                py: "5px",
+              }}
+            >
+              <Typography
+                sx={{
+                  fontFamily: "Gotham Pro Regular",
+                  fontWeight: 700,
+                  fontSize: "24px",
+                  lineHeight: "23px",
+                  color: "white",
+                  textAlign: "center",
+                  textIndent: "6px",
+                }}
+              >
+                Рядом с катком есть пункт проката.
+              </Typography>
+            </Stack>
+          </Stack>
+        </Box>
+        <Box
+          sx={{
+            backgroundImage:
+              "url(/images/backgrounds/mobile/tutor-bottomBg.png)",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            height: "800px",
+            width: "100%",
+            position: "relative",
+          }}
+        >
+          <Box
+            sx={{
+              position: "absolute",
+              bottom: "-20px",
+              right: 0,
+              left: 0,
+              mx: "auto",
+              width: "342px",
+            }}
+          >
+            <RegBtn isMobile={isMobile} onClick={() => {}} />
+          </Box>
+        </Box>
+      </Stack>
+    </Box>
   );
 };
 export default Tutorial;
