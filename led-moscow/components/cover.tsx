@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Container, Stack, Typography } from "@mui/material";
+import RegBtn from "./ui/regbtn";
 
 const Cover = () => {
   return (
@@ -12,6 +13,7 @@ const Cover = () => {
           minHeight: "820px",
           width: "100%",
           pt: "14px",
+          position: "relative"
         }}
       >
         <Stack
@@ -114,6 +116,9 @@ const Cover = () => {
             </Stack>
           </Stack>
         </Stack>
+        <Box sx={{ position: "absolute", bottom: "5%", right: "3%", width: "543px" }}>
+          <RegBtn onClick={() => {}} />
+        </Box>
       </Box>
     </Container>
   );
