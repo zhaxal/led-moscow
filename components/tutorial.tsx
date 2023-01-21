@@ -42,8 +42,13 @@ const Tutorial = ({ isMobile }: Props) => {
           }}
           spacing={2}
         >
-          <Typography
-            variant={"about"}
+          <Box
+            sx={{
+              fontSize: "20px",
+              lineHeight: "20px",
+              fontFamily: "Gotham Pro Light",
+              color: "white",
+            }}
             dangerouslySetInnerHTML={{
               __html: `
                             <body id='tinymce' class='mce-content-body ' data-id='text' spellcheck='false' contenteditable='true'>
@@ -113,7 +118,7 @@ const Tutorial = ({ isMobile }: Props) => {
             alignItems={"center"}
             spacing={2}
           >
-            <Typography
+            <Box
               sx={{
                 fontFamily: "Gotham Pro Light",
                 fontSize: isSmaller ? "20px" : "15px",
