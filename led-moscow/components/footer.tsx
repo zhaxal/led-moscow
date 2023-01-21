@@ -1,8 +1,12 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
 import React from "react";
 
-const Footer = () => {
-  return (
+interface Props {
+  isMobile: boolean;
+}
+
+const Footer = ({ isMobile }: Props) => {
+  return isMobile ? (
     <Container
       maxWidth={"lg"}
       disableGutters
@@ -86,6 +90,8 @@ const Footer = () => {
         </Stack>
       </Box>
     </Container>
+  ) : (
+    <Box></Box>
   );
 };
 

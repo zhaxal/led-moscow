@@ -2,8 +2,12 @@ import React from "react";
 import { Box, Container, Stack, Typography } from "@mui/material";
 import RegBtn from "./ui/regbtn";
 
-const Cover = () => {
-  return (
+interface Props {
+  isMobile: boolean;
+}
+
+const Cover = ({ isMobile }: Props) => {
+  return isMobile ? (
     <Container disableGutters maxWidth={"lg"}>
       <Box
         sx={{
@@ -13,7 +17,7 @@ const Cover = () => {
           minHeight: "820px",
           width: "100%",
           pt: "14px",
-          position: "relative"
+          position: "relative",
         }}
       >
         <Stack
@@ -100,14 +104,14 @@ const Cover = () => {
               </Stack>
               <Typography
                 sx={{
-                  fontFamily: "Gotham Pro Regular",
-                  fontWeight: 700,
+                  fontFamily: "Gotham Pro Bold",
+                  fontWeight: 400,
                   fontSize: "24px",
                   lineHeight: "24px",
                   textAlign: "right",
                   whiteSpace: "pre-line",
                   textTransform: "uppercase",
-                  mt: "10px"
+                  mt: "10px",
                 }}
               >
                 {`СК «Лужники» 
@@ -116,11 +120,155 @@ const Cover = () => {
             </Stack>
           </Stack>
         </Stack>
-        <Box sx={{ position: "absolute", bottom: "5%", right: "3%", width: "543px" }}>
-          <RegBtn onClick={() => {}} />
+        <Box
+          sx={{
+            position: "absolute",
+            bottom: "5%",
+            right: "3%",
+            width: "543px",
+          }}
+        >
+          <RegBtn isMobile={isMobile} onClick={() => {}} />
         </Box>
       </Box>
     </Container>
+  ) : (
+    <Box
+      sx={{
+        backgroundImage: "url(/images/backgrounds/mobile/cover.svg)",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        height: "640px",
+        pt: "44px",
+        px: "35px",
+        position: "relative",
+      }}
+    >
+      <Stack
+        sx={{
+          alignItems: "flex-end",
+          width: "100%",
+        }}
+        spacing={"60px"}
+      >
+        <Stack
+          direction={"row"}
+          sx={{
+            width: "100%",
+            justifyContent: "space-around",
+          }}
+        >
+          <Box
+            component={"img"}
+            src={"/images/logos/mobile/departmentLogo.svg"}
+            sx={{ maxWidth: "86px", height: "43px" }}
+          />
+          <Box
+            component={"img"}
+            src={"/images/logos/mobile/mossportLogo.svg"}
+            sx={{ maxWidth: "86px", height: "43px" }}
+          />
+          <Box
+            component={"img"}
+            src={"/images/logos/mobile/100mossportLogo.svg"}
+            sx={{ maxWidth: "86px", height: "43px" }}
+          />
+          <Box
+            component={"img"}
+            src={"/images/logos/mobile/skateLogo.svg"}
+            sx={{ maxWidth: "86px", height: "43px" }}
+          />
+        </Stack>
+        <Stack
+          direction={"row"}
+          sx={{ width: "100%" }}
+          justifyContent={"space-evenly"}
+        >
+          <Typography
+            sx={{
+              fontFamily: "Mossport",
+              fontWeight: 400,
+              fontSize: "20px",
+              lineHeight: "20px",
+              textAlign: "right",
+              maxWidth: "171px",
+              color: "white",
+            }}
+          >
+            СОРЕВНОВАНИЯ ПО КОНЬКОБЕЖНОМУ СПОРТУ
+          </Typography>
+          <Box
+            component={"img"}
+            src={"/images/logos/iceLogo.svg"}
+            sx={{ height: "94px" }}
+          />
+        </Stack>
+
+        <Stack
+          sx={{
+            alignItems: "flex-end",
+            position: "relative",
+            pt: "73px",
+          }}
+        >
+          <Box
+            sx={{
+              backgroundImage: "url(/images/backgrounds/dateBg.png)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              minHeight: "34px",
+              width: "189px",
+              mr: "-35px",
+            }}
+          ></Box>
+          <Stack
+            sx={{
+              position: "absolute",
+              minHeight: "34px",
+              justifyContent: "center",
+            }}
+          >
+            <Typography
+              sx={{
+                fontFamily: "Gotham Pro Regular",
+                fontWeight: 700,
+                fontSize: "16px",
+                lineHeight: "20px",
+                textAlign: "right",
+                color: "white",
+              }}
+            >
+              4 ФЕВРАЛЯ
+            </Typography>
+          </Stack>
+          <Typography
+            sx={{
+              fontFamily: "Gotham Pro Bold",
+              fontWeight: 200,
+              fontSize: "16px",
+              lineHeight: "20px",
+              textAlign: "right",
+              whiteSpace: "pre-line",
+              textTransform: "uppercase",
+              mt: "20px",
+            }}
+          >
+            {`СК «Лужники» 
+              Каток «Южный полюс»`}
+          </Typography>
+        </Stack>
+      </Stack>
+      <Box
+        sx={{
+          position: "absolute",
+          bottom: "-5%",
+          right: "5%",
+          width: "342px",
+        }}
+      >
+        <RegBtn isMobile={isMobile} onClick={() => {}} />
+      </Box>
+    </Box>
   );
 };
 

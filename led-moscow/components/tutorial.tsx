@@ -3,8 +3,12 @@ import React from "react";
 import Header from "./ui/header";
 import RegBtn from "./ui/regbtn";
 
-const Tutorial = () => {
-  return (
+interface Props {
+  isMobile: boolean;
+}
+
+const Tutorial = ({ isMobile }: Props) => {
+  return isMobile ? (
     <Container maxWidth={"xl"} sx={{ mt: "80px" }}>
       <Box sx={{ px: "150px" }}>
         <Header text="КАК ПРИНЯТЬ УЧАСТИЕ" />
@@ -78,10 +82,12 @@ const Tutorial = () => {
             width: "543px",
           }}
         >
-          <RegBtn onClick={() => {}} />
+          <RegBtn isMobile={isMobile}  onClick={() => {}} />
         </Box>
       </Box>
     </Container>
+  ) : (
+    <Box></Box>
   );
 };
 export default Tutorial;
