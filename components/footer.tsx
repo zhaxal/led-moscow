@@ -1,5 +1,6 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
 import React from "react";
+import IceIcon from "./ui/ice";
 
 interface Props {
   isMobile: boolean;
@@ -34,11 +35,8 @@ const Footer = ({ isMobile }: Props) => {
           sx={{ justifyContent: "flex-end", alignItems: "flex-end" }}
           spacing={"50px"}
         >
-          <Box
-            component={"img"}
-            src={"/images/logos/iceLogo.svg"}
-            sx={{ maxHeight: "176px", mt: "50px", width: "470px" }}
-          />
+          <IceIcon isMobile={isMobile} />
+
           <Stack spacing={"50px"}>
             <Box>
               <Typography
@@ -109,12 +107,16 @@ const Footer = ({ isMobile }: Props) => {
           bottom: 0,
         }}
       >
-        <Stack spacing={"50px"} sx={{ alignItems: "flex-start", px: "40px" }}>
-          <Box
-            component={"img"}
-            src={"/images/logos/iceLogo.svg"}
-            sx={{ maxHeight: "91px", mt: "102px" }}
-          />
+        <Stack
+          spacing={"50px"}
+          sx={{
+            alignItems: "flex-start",
+            px: "40px",
+            height: "100%",
+            pt: "160px",
+          }}
+        >
+          <IceIcon isMobile={isMobile} />
           <Stack spacing={"50px"} sx={{ width: "100%" }}>
             <Box>
               <Typography

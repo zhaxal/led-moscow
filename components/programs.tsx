@@ -1,4 +1,11 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Container,
+  Stack,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import React from "react";
 import Date from "./ui/date";
 import Header from "./ui/header";
@@ -21,6 +28,7 @@ const Programs = ({ isMobile }: Props) => {
           backgroundSize: "cover",
           height: "550px",
           position: "relative",
+          zIndex: 1,
         }}
       >
         <Stack
@@ -35,7 +43,7 @@ const Programs = ({ isMobile }: Props) => {
             <Date
               dateFrom="8:00"
               dateTo="8:50"
-              desc="Регистрация участников, жеребьевка"
+              desc="Регистрация участников, жеребьёвка"
               isMobile={isMobile}
             />
             <Date
@@ -117,7 +125,7 @@ const Programs = ({ isMobile }: Props) => {
             <Date
               dateFrom="8:00"
               dateTo="8:50"
-              desc="Регистрация участников, жеребьевка"
+              desc="Регистрация участников, жеребьёвка"
               isMobile={isMobile}
             />
             <Date

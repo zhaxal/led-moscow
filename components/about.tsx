@@ -129,7 +129,7 @@ const About = ({ isMobile }: Props) => {
             backgroundImage: "url(/images/backgrounds/mobile/about-bottom.png)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            height: "750px",
+            height: "500px",
             width: "95%",
           }}
         />

@@ -1,12 +1,21 @@
 import React from "react";
-import { Box, Container, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Container,
+  Stack,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import RegBtn from "./ui/regbtn";
+import IceIcon from "./ui/ice";
 
 interface Props {
   isMobile: boolean;
 }
 
 const Cover = ({ isMobile }: Props) => {
+  const isSmaller = useMediaQuery("(min-width:400px)");
+
   return isMobile ? (
     <Container disableGutters maxWidth={"lg"}>
       <Box
@@ -60,12 +69,7 @@ const Cover = ({ isMobile }: Props) => {
             >
               СОРЕВНОВАНИЯ ПО КОНЬКОБЕЖНОМУ СПОРТУ
             </Typography>
-            <Box
-              component={"img"}
-              src={"/images/logos/iceLogo.svg"}
-              alt={"iceLogo"}
-              sx={{ maxWidth: "470px" }}
-            />
+            <IceIcon isMobile={isMobile} />
             <Stack
               sx={{
                 alignItems: "flex-end",
@@ -139,9 +143,10 @@ const Cover = ({ isMobile }: Props) => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "640px",
-        pt: "44px",
-        px: "35px",
+        pt: isSmaller ? "44px" : "20px",
+        px: isSmaller ? "20px" : "5px",
         position: "relative",
+        backgroundPositionX: "50%",
       }}
     >
       <Stack
@@ -188,27 +193,25 @@ const Cover = ({ isMobile }: Props) => {
             sx={{
               fontFamily: "Mossport",
               fontWeight: 400,
-              fontSize: "20px",
+              fontSize: isSmaller ? "20px" : "18px",
               lineHeight: "20px",
               textAlign: "right",
               maxWidth: "171px",
+              maxHeight: "40px",
               color: "white",
+              mr: isSmaller ? "-15px" : "-15px",
             }}
           >
             СОРЕВНОВАНИЯ ПО КОНЬКОБЕЖНОМУ СПОРТУ
           </Typography>
-          <Box
-            component={"img"}
-            src={"/images/logos/iceLogo.svg"}
-            sx={{ height: "94px" }}
-          />
+          <IceIcon isMobile={isMobile} />
         </Stack>
 
         <Stack
           sx={{
             alignItems: "flex-end",
             position: "relative",
-            pt: "73px",
+            pt: isSmaller ? "73px" : "100px",
           }}
         >
           <Box
@@ -218,7 +221,7 @@ const Cover = ({ isMobile }: Props) => {
               backgroundSize: "cover",
               minHeight: "34px",
               width: "189px",
-              mr: "-35px",
+              mr: isSmaller ? "-20px" : "-5px",
             }}
           ></Box>
           <Stack
@@ -261,7 +264,7 @@ const Cover = ({ isMobile }: Props) => {
       <Box
         sx={{
           position: "absolute",
-          bottom: "-5%",
+          bottom: "4px",
           right: "5%",
           width: "342px",
         }}

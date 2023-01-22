@@ -171,7 +171,7 @@ const Tutorial = ({ isMobile }: Props) => {
               "url(/images/backgrounds/mobile/tutor-bottomBg.png)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            height: "800px",
+            height: "420px",
             width: "100%",
             position: "relative",
           }}
@@ -179,7 +179,7 @@ const Tutorial = ({ isMobile }: Props) => {
           <Box
             sx={{
               position: "absolute",
-              bottom: "-20px",
+              bottom: "-30px",
               right: 0,
               left: 0,
               mx: "auto",

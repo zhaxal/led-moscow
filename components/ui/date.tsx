@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Typography, useMediaQuery } from "@mui/material";
 import { Stack } from "@mui/system";
 import React from "react";
 
@@ -10,6 +10,8 @@ interface Props {
 }
 
 const Date = ({ dateFrom, dateTo, desc, isMobile }: Props) => {
+  const isSmaller = useMediaQuery("(min-width:400px)");
+
   return (
     <Stack
       sx={{
@@ -28,7 +30,7 @@ const Date = ({ dateFrom, dateTo, desc, isMobile }: Props) => {
         sx={{
           justifyContent: "center",
           alignItems: "center",
-          width: "25%",
+          width: isSmaller ? "30%" : "40%",
         }}
       >
         <Typography
@@ -52,7 +54,7 @@ const Date = ({ dateFrom, dateTo, desc, isMobile }: Props) => {
           fontSize: isMobile ? "24px" : "16px",
           lineHeight: isMobile ? "23px" : "15px",
           color: "white",
-          width: "70%",
+          width: isSmaller ? "70%" : "60%",
         }}
       >
         {desc}
