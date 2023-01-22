@@ -8,7 +8,7 @@ import Tutorial from "components/tutorial";
 import { NextPage } from "next";
 import React from "react";
 
-const preview: NextPage = () => {
+const Preview: NextPage = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("lg"));
 
@@ -24,4 +24,4 @@ const preview: NextPage = () => {
   );
 };
 
-export default preview;
+export default Preview;
