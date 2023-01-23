@@ -17,10 +17,10 @@ const About = ({ isMobile }: Props) => {
       </Box>
       <Box
         sx={{
-          backgroundImage: "url(/images/backgrounds/about.jpg)",
+          backgroundImage: "url(/images/backgrounds/about.png)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          height: "593px",
+          height: "703px",
           width: "100%",
         }}
       >
