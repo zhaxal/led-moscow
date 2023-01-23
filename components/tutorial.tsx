@@ -47,11 +47,12 @@ const Tutorial = ({ isMobile }: Props) => {
               fontSize: "20px",
               lineHeight: "20px",
               fontFamily: "Gotham Pro Light",
+              maxWidth: "640px",
               color: "white",
             }}
             dangerouslySetInnerHTML={{
               __html: `
-                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>1. Зарегистрироваться на сайте проекта <strong style='text-decoration: underline; text-decoration-thickness: 1px'>до 3 февраля</strong></div>
+                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>1. Зарегистрироваться <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 2 февраля</span> включительно. Индивидуальные заявки подаются через форму регистрации на сайте, коллективные отправляются на почту <a href="mailto:mosskater@yandex.ru" style='color: white;text-decoration: underline; text-decoration-thickness: 1px'>mosskater@yandex.ru</a> (шаблон в Положении).</div>
                             <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>2. Собрать пакет документов (оригиналы):</div>
                             <ul style="margin-left: 3em">
                                 <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>паспорт или свидетельство о рождении;</li>
@@ -74,7 +75,7 @@ const Tutorial = ({ isMobile }: Props) => {
           >
             <Typography
               sx={{
-                fontFamily: "Gotham Pro Regular",
+                fontFamily: "Gotham Pro Bold",
                 fontWeight: 400,
                 fontSize: "24px",
                 lineHeight: "23px",
@@ -119,24 +120,24 @@ const Tutorial = ({ isMobile }: Props) => {
             <Box
               sx={{
                 fontFamily: "Gotham Pro Light",
-                fontSize: isSmaller ? "20px" : "15px",
+                fontSize: isSmaller ? "16px" : "14px",
                 lineHeight: "20px",
                 fontWeight: 400,
                 color: "white",
-                width: "80%",
+                width: "87%",
               }}
               dangerouslySetInnerHTML={{
                 __html: `
-                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>1. Зарегистрироваться на сайте проекта <strong style='text-decoration: underline; text-decoration-thickness: 1px'>до 3 февраля</strong></div>
-                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>2. Собрать пакет документов (оригиналы):</div>
-                            <ul style="margin-left: 3em">
-                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>паспорт или свидетельство о рождении;</li>
-                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис ОМС или ДМС;</li>
-                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис страхования жизни и здоровья от несчастных случаев, действительный на день соревнования;</li>
-                                <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
-                            </ul>
-                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>3. Предоставить документы в зоне регистрации перед </br> началом соревнований.</div>
-                            <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>4. На старт! Желаем успехов!</div>`,
+                <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>1. Зарегистрироваться <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 2 февраля</span> включительно. Индивидуальные заявки подаются через форму регистрации на сайте, коллективные отправляются на почту <a href="mailto:mosskater@yandex.ru" style='color: white;text-decoration: underline; text-decoration-thickness: 1px'>mosskater@yandex.ru</a> (шаблон в Положении).</div>
+                <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>2. Собрать пакет документов (оригиналы):</div>
+                <ul style="margin-left: 3em">
+                    <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>паспорт или свидетельство о рождении;</li>
+                    <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис ОМС или ДМС;</li>
+                    <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис страхования жизни и здоровья от несчастных случаев, действительный на день соревнования;</li>
+                    <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
+                </ul>
+                <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>3. Предоставить документы в зоне регистрации перед </br> началом соревнований.</div>
+                <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>4. На старт! Желаем успехов!</div>`,
               }}
             />
             <Stack

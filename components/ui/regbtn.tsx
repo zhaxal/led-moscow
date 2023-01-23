@@ -17,7 +17,7 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           height: "100%",
-          width: "99%",
+          width: "91%",
           py: isMobile ? "21px" : "15px",
           justifyContent: "center",
           alignItems: "center",
@@ -56,10 +56,10 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           height: isMobile ? "85px" : "54px",
-          width: "100%",
+          width: "96%",
           position: "absolute",
           bottom: "6px",
-          left: "-5px",
+          left: "-20px",
           zIndex: -1,
         }}
       />

@@ -127,8 +127,8 @@ const Cover = ({ isMobile }: Props) => {
         <Box
           sx={{
             position: "absolute",
-            bottom: "5%",
-            right: "3%",
+            bottom: "3px",
+            right: "0px",
             width: "543px",
           }}
         >
