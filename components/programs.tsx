@@ -95,7 +95,14 @@ const Programs = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile} onClick={() => { }} />
+          <RegBtn isMobile={isMobile} onClick={() => {
+            window
+              .open(
+                "https://mosgorsport.timepad.ru/event/2304453/",
+                "_blank"
+              )
+              ?.focus()
+          }} />
         </Box>
       </Box>
     </Container>
@@ -174,7 +181,14 @@ const Programs = ({ isMobile }: Props) => {
               justifyContent: "center",
               alignItems: "center"
             }}>
-              <RegBtn isMobile={isMobile} onClick={() => { }} />
+              <RegBtn isMobile={isMobile} onClick={() => {
+                window
+                  .open(
+                    "https://mosgorsport.timepad.ru/event/2304453/",
+                    "_blank"
+                  )
+                ?.focus()
+              }} />
             </Stack>
           </Stack>
         </Box>

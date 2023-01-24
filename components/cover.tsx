@@ -132,7 +132,14 @@ const Cover = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile} onClick={() => {}} />
+          <RegBtn isMobile={isMobile} onClick={() => {
+            window
+              .open(
+                "https://mosgorsport.timepad.ru/event/2304453/",
+                "_blank"
+              )
+              ?.focus()
+          }} />
         </Box>
       </Box>
     </Container>
@@ -269,7 +276,14 @@ const Cover = ({ isMobile }: Props) => {
           width: "342px",
         }}
       >
-        <RegBtn isMobile={isMobile} onClick={() => {}} />
+        <RegBtn isMobile={isMobile} onClick={() => {
+          window
+            .open(
+              "https://mosgorsport.timepad.ru/event/2304453/",
+              "_blank"
+            )
+          ?.focus()
+        }} />
       </Box>
     </Box>
   );
