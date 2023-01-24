@@ -8,7 +8,7 @@ interface Props {
 }
 
 const About = ({ isMobile }: Props) => {
-  const isSmaller = useMediaQuery("(min-width:400px)");
+  const isSmaller = useMediaQuery("(min-width:415px)");
 
   return isMobile ? (
     <Container maxWidth={"xl"} sx={{ mt: "80px" }}>
@@ -44,7 +44,7 @@ const About = ({ isMobile }: Props) => {
               __html: `
               <span style='margin-bottom: 10px; padding-left: 1.5em;
               text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
-              text-indent:-1.5em;'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
+              text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
               России. Мероприятие ежегодно объединяет сотни любителей
               конькобежного спорта.</span>
               </br>
@@ -56,12 +56,12 @@ const About = ({ isMobile }: Props) => {
               </br>
               </br>
                 <ul style="margin-left: 2em">
-                    <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Валерий Муратов</span> – трехкратный призер
+                    <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Валерий Муратов</span> – трехкратный призер
                     Олимпийских игр, заслуженный мастер спорта СССР, главный тренер
                     сборной России; </li>
-                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Светлана Журова</span> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
-                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Дмитрий Дорофеев</span> – серебряный призёр Олимпийских игр; </li>
-                    <li><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Екатерина Лобышева</span> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
+                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Светлана Журова</span> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
+                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Дмитрий Дорофеев</span> – серебряный призёр Олимпийских игр; </li>
+                    <li><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Екатерина Лобышева</span> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
                 </ul>`,
             }}
           />
@@ -101,7 +101,7 @@ const About = ({ isMobile }: Props) => {
               dangerouslySetInnerHTML={{
                 __html: `<span style='margin-bottom: 10px; padding-left: 1.5em;
                 text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
-                text-indent:-1.5em;'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
+                text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
                 России. Мероприятие ежегодно объединяет сотни любителей
                 конькобежного спорта.</span>
                 </br>
@@ -113,12 +113,12 @@ const About = ({ isMobile }: Props) => {
                 </br>
                 </br>
                   <ul style="margin-left: 2em">
-                      <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Валерий Муратов</span> – трехкратный призер
+                      <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Валерий Муратов</span> – трехкратный призер
                       Олимпийских игр, заслуженный мастер спорта СССР, главный тренер
                       сборной России; </li>
-                      <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Светлана Журова</span> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
-                      <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Дмитрий Дорофеев</span> – серебряный призёр Олимпийских игр; </li>
-                      <li><span style='font-weight: 400px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 400px; font-family: "Gotham Pro Medium"'>Екатерина Лобышева</span> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
+                      <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Светлана Журова</span> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
+                      <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Дмитрий Дорофеев</span> – серебряный призёр Олимпийских игр; </li>
+                      <li><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Екатерина Лобышева</span> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
                   </ul>`,
               }}
             />

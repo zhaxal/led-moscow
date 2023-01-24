@@ -10,7 +10,7 @@ interface Props {
 }
 
 const Date = ({ dateFrom, dateTo, desc, isMobile }: Props) => {
-  const isSmaller = useMediaQuery("(min-width:400px)");
+  const isSmaller = useMediaQuery("(min-width:415px)");
 
   return (
     <Stack

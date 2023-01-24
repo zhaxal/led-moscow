@@ -6,7 +6,7 @@ interface Props {
 }
 
 const IceIcon = ({ isMobile }: Props) => {
-  const isSmaller = useMediaQuery("(min-width:400px)");
+  const isSmaller = useMediaQuery("(min-width:415px)");
 
   return (
     <Stack

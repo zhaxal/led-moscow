@@ -14,7 +14,7 @@ interface Props {
 }
 
 const Tutorial = ({ isMobile }: Props) => {
-  const isSmaller = useMediaQuery("(min-width:400px)");
+  const isSmaller = useMediaQuery("(min-width:415px)");
 
   return isMobile ? (
     <Container maxWidth={"xl"} sx={{ mt: "80px" }}>
@@ -173,6 +173,7 @@ const Tutorial = ({ isMobile }: Props) => {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             height: "420px",
+            mt: "-10%",
             width: "100%",
             position: "relative",
           }}

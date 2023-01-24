@@ -8,7 +8,7 @@ interface Props {
 
 const RegBtn = ({ onClick, isMobile }: Props) => {
   const [isHover, setHover] = useState<boolean>(false);
-  const isSmaller = useMediaQuery("(min-width:400px)");
+  const isSmaller = useMediaQuery("(min-width:415px)");
 
 
   return (

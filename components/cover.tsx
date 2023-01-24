@@ -14,7 +14,7 @@ interface Props {
 }
 
 const Cover = ({ isMobile }: Props) => {
-  const isSmaller = useMediaQuery("(min-width:400px)");
+  const isSmaller = useMediaQuery("(min-width:415px)");
 
   return isMobile ? (
     <Container disableGutters maxWidth={"lg"}>
