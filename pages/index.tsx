@@ -19,17 +19,17 @@ export default function Home() {
   const matches = useMediaQuery(theme.breakpoints.up("lg"));
 
   return (
-    // <Box>
-    //   <Cover isMobile={matches} />
-    //   <About isMobile={matches}/>
-    //   <Programs isMobile={matches}/>
-    //   <Participants isMobile={matches}/>
-    //   <Tutorial isMobile={matches}/>
-    //   <Footer isMobile={matches}/>
-    // </Box>
+    <Box>
+      <Cover isMobile={matches} />
+      <About isMobile={matches} />
+      <Programs isMobile={matches} />
+      <Participants isMobile={matches} />
+      <Tutorial isMobile={matches} />
+      <Footer isMobile={matches} />
+    </Box>
 
-    <Alert severity="info" variant="filled">
-      <AlertTitle>Сайт в разработке</AlertTitle>
-    </Alert>
+    // <Alert severity="info" variant="filled">
+    //   <AlertTitle>Сайт в разработке</AlertTitle>
+    // </Alert>
   );
 }

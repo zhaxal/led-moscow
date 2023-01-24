@@ -69,9 +69,11 @@ const About = ({ isMobile }: Props) => {
     <Box sx={{ mt: "64px", width: "100%" }}>
       <Stack direction={"column"} sx={{ px: "10px" }}>
         <Header isMobile={isMobile} text="О СОРЕВНОВАНИЯХ" />
-        <Box sx={{
-          position: "relative",
-        }}>
+        <Box
+          sx={{
+            position: "relative",
+          }}
+        >
           <Box
             sx={{
               backgroundImage: "url(/images/backgrounds/mobile/about-top.svg)",
@@ -79,7 +81,7 @@ const About = ({ isMobile }: Props) => {
               backgroundSize: "cover",
               height: "494px",
               width: "100%",
-              mt: "32px"
+              mt: "32px",
             }}
           >
             <Stack
