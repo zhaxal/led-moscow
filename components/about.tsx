@@ -42,26 +42,23 @@ const About = ({ isMobile }: Props) => {
             }}
             dangerouslySetInnerHTML={{
               __html: `
-              <span style='margin-bottom: 10px; padding-left: 1.5em;
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
               text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
               text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
               России. Мероприятие ежегодно объединяет сотни любителей
               конькобежного спорта.</span>
               </br>
               </br>
-              <span style='margin-bottom: 10px; padding-left: 1.5em;
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
               text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-              text-indent:-1.5em;'>В разные годы в турнире участвовали будущие
-              звезды конькобежного спорта:</span>
+              text-indent:-1.5em;'>В разные годы в турнире участвовали будущие звезды конькобежного спорта, заслуженные мастера спорта России и СССР:</span>
               </br>
               </br>
                 <ul style="margin-left: 2em">
-                    <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Валерий Муратов</span> – трехкратный призер
-                    Олимпийских игр, заслуженный мастер спорта СССР, главный тренер
-                    сборной России; </li>
-                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Светлана Журова</span> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
-                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Дмитрий Дорофеев</span> – серебряный призёр Олимпийских игр; </li>
-                    <li><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Екатерина Лобышева</span> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
+                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Валерий Муратов</li>
+                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Светлана Журова</li>
+                    <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Дмитрий Дорофеев</li>
+                    <li>Екатерина Лобышева</li>
                 </ul>`,
             }}
           />
@@ -70,59 +67,77 @@ const About = ({ isMobile }: Props) => {
     </Container>
   ) : (
     <Box sx={{ mt: "64px", width: "100%" }}>
-      <Stack direction={"column"}>
+      <Stack direction={"column"} sx={{ px: "10px" }}>
         <Header isMobile={isMobile} text="О СОРЕВНОВАНИЯХ" />
-        <Box
-          sx={{
-            backgroundImage: "url(/images/backgrounds/mobile/about-top.png)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            height: "524px",
-            width: "100%",
-          }}
-        >
-          <Stack
+        <Box sx={{
+          position: "relative",
+        }}>
+          <Box
             sx={{
+              backgroundImage: "url(/images/backgrounds/mobile/about-top.svg)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              height: "494px",
               width: "100%",
-              height: "100%",
-              justifyContent: "center",
-              alignItems: "center",
+              mt: "32px"
             }}
           >
-            <Box
+            <Stack
               sx={{
-                fontFamily: "Gotham Pro Light",
-                fontSize: isSmaller ? "16px" : "14px",
-                lineHeight: "15.31px",
-                fontWeight: 400,
-                color: "white",
-                width: "80%",
+                width: "100%",
+                height: "100%",
+                justifyContent: "center",
+                alignItems: "center",
               }}
-              dangerouslySetInnerHTML={{
-                __html: `<span style='margin-bottom: 10px; padding-left: 1.5em;
-                text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
-                text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
-                России. Мероприятие ежегодно объединяет сотни любителей
-                конькобежного спорта.</span>
-                </br>
-                </br>
-                <span style='margin-bottom: 10px; padding-left: 1.5em;
-                text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                text-indent:-1.5em;'>В разные годы в турнире участвовали будущие
-                звезды конькобежного спорта:</span>
-                </br>
-                </br>
-                  <ul style="margin-left: 2em">
-                      <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Валерий Муратов</span> – трехкратный призер
-                      Олимпийских игр, заслуженный мастер спорта СССР, главный тренер
-                      сборной России; </li>
-                      <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Светлана Журова</span> – заслуженный мастер спорта России, олимпийская чемпионка; </li>
-                      <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Дмитрий Дорофеев</span> – серебряный призёр Олимпийских игр; </li>
-                      <li><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>Екатерина Лобышева</span> – бронзовый призёр в командной гонке на Олимпийских играх и многие другие.</li>
-                  </ul>`,
-              }}
-            />
-          </Stack>
+            >
+              <Box
+                sx={{
+                  fontFamily: "Gotham Pro Light",
+                  fontSize: "16px",
+                  lineHeight: "15.31px",
+                  fontWeight: 400,
+                  color: "white",
+                  width: "85%",
+                }}
+                dangerouslySetInnerHTML={{
+                  __html: `
+                <div>
+                  <span style='margin-bottom: 10px; padding-left: 1.5em;
+                  text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
+                  text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
+                  России. Мероприятие ежегодно объединяет сотни любителей
+                  конькобежного спорта.</span>
+                  </br>
+                  </br>
+                  <span style='margin-bottom: 10px; padding-left: 1.5em;
+                  text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+                  text-indent:-1.5em;'>В разные годы в турнире участвовали будущие звезды конькобежного спорта, заслуженные мастера спорта России и СССР:</span>
+                  </br>
+                  </br>
+                    <ul style="margin-left: 2em">
+                        <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Валерий Муратов</li>
+                        <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Светлана Журова</li>
+                        <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Дмитрий Дорофеев</li>
+                        <li>Екатерина Лобышева</li>
+                    </ul>
+                </div>`,
+                }}
+              />
+            </Stack>
+          </Box>
+          <Box
+            sx={{
+              backgroundImage: "url(/images/backgrounds/mobile/about-topB.svg)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              height: "510px",
+              width: "100%",
+              position: "absolute",
+              top: 0,
+              left: "-20px",
+              zIndex: -1,
+            }}
+          />
         </Box>
         <Box
           sx={{

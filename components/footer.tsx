@@ -11,7 +11,7 @@ const Footer = ({ isMobile }: Props) => {
     <Container
       maxWidth={"lg"}
       disableGutters
-      sx={{ mt: "21px", mb: "66px", position: "relative" }}
+      sx={{ mt: "21px", mb: "66px", position: "relative", id: "Footer"}}
     >
       <iframe
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A386f4d75d3a9b20360536d057c2e1cb2042f5c49d65c4ba2becf0e34d2bd330d&amp;source=constructor"
