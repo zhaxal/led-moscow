@@ -132,14 +132,14 @@ const Cover = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile} onClick={() => {
-            window
-              .open(
-                "https://mosgorsport.timepad.ru/event/2304453/",
-                "_blank"
-              )
-              ?.focus()
-          }} />
+          <RegBtn
+            isMobile={isMobile}
+            onClick={() => {
+              window
+                .open("https://mosgorsport.timepad.ru/event/2304453/", "_blank")
+                ?.focus();
+            }}
+          />
         </Box>
       </Box>
     </Container>
@@ -206,7 +206,7 @@ const Cover = ({ isMobile }: Props) => {
               maxWidth: "171px",
               maxHeight: "40px",
               color: "white",
-              mr: isSmaller ? "-15px" : "-5px",
+              mr: isSmaller ? "-15px" : "2px",
             }}
           >
             СОРЕВНОВАНИЯ ПО КОНЬКОБЕЖНОМУ СПОРТУ
@@ -276,14 +276,14 @@ const Cover = ({ isMobile }: Props) => {
           width: "342px",
         }}
       >
-        <RegBtn isMobile={isMobile} onClick={() => {
-          window
-            .open(
-              "https://mosgorsport.timepad.ru/event/2304453/",
-              "_blank"
-            )
-          ?.focus()
-        }} />
+        <RegBtn
+          isMobile={isMobile}
+          onClick={() => {
+            window
+              .open("https://mosgorsport.timepad.ru/event/2304453/", "_blank")
+              ?.focus();
+          }}
+        />
       </Box>
     </Box>
   );

@@ -11,7 +11,7 @@ const Footer = ({ isMobile }: Props) => {
     <Container
       maxWidth={"lg"}
       disableGutters
-      sx={{ mt: "21px", mb: "66px", position: "relative", id: "Footer"}}
+      sx={{ mt: "21px", mb: "66px", position: "relative", id: "Footer" }}
     >
       <iframe
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A386f4d75d3a9b20360536d057c2e1cb2042f5c49d65c4ba2becf0e34d2bd330d&amp;source=constructor"
@@ -47,10 +47,13 @@ const Footer = ({ isMobile }: Props) => {
                   lineHeight: "28.8px",
                   textDecoration: "underline",
                   textDecorationSkipInk: "none",
-                  textDecorationThickness: "1px"
+                  textDecorationThickness: "1px",
                 }}
               >
-                <a href={`/docs/Положение_Лед_надежды.docx`} download={`Положение_Лед_надежды.docx`}>
+                <a
+                  href={`/docs/Положение_Лед_надежды.docx`}
+                  download={`Положение_Лед_надежды.docx`}
+                >
                   Положение о проведении
                 </a>
               </Typography>
@@ -104,7 +107,7 @@ const Footer = ({ isMobile }: Props) => {
           </Stack>
         </Stack>
       </Box>
-    </Container >
+    </Container>
   ) : (
     <Box sx={{ mt: "61px", mb: "66px", position: "relative" }}>
       <iframe
@@ -143,10 +146,13 @@ const Footer = ({ isMobile }: Props) => {
                 lineHeight: "24px",
                 textDecoration: "underline",
                 textDecorationSkipInk: "none",
-                textDecorationThickness: "1px"
+                textDecorationThickness: "1px",
               }}
             >
-              <a href={`/docs/Положение_Лед_надежды.docx`} download={`Положение_Лед_надежды.docx`}>
+              <a
+                href={`/docs/Положение_Лед_надежды.docx`}
+                download={`Положение_Лед_надежды.docx`}
+              >
                 Положение о проведении
               </a>
             </Typography>
@@ -192,8 +198,8 @@ const Footer = ({ isMobile }: Props) => {
                 lineHeight: "24px",
               }}
             >
-              Каток находится напротив Дворца водных видов спорта «Лужники» в
-              3-5 минутах от метро.
+              Каток находится напротив дворца водных видов спорта «Лужники» в
+              3-5 минутах от метро «Воробьевы горы», 3 выход.
             </Typography>
           </Stack>
         </Stack>

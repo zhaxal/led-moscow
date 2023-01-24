@@ -126,7 +126,7 @@ const Participants = ({ isMobile }: Props) => {
         >
           <Stack
             spacing={"8px"}
-            sx={{ height: "100%", width: "100%" }}
+            sx={{ height: "90%", width: "100%" }}
             justifyContent={"center"}
             alignItems={"center"}
           >

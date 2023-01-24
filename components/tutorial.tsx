@@ -61,9 +61,9 @@ const Tutorial = ({ isMobile }: Props) => {
                       <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>Индивидуальные</span>  
                       заявки подаются через форму регистрации на сайте, 
                       <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>коллективные</span> 
-                      отправляются на почту 
+                      — отправляются на почту 
                       <a href="mailto:mosskater@yandex.ru" style='text-decoration: underline; text-decoration-thickness: 1px'>mosskater@yandex.ru</a> 
-                      (шаблон в <span onClick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" style="text-decoration: underline; text-decoration-thickness: 1px">Положении</span>).</div>
+                      (шаблон в <span onClick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" style="text-decoration: underline; text-decoration-thickness: 1px; cursor: pointer">Положении</span>).</div>
                     </div>
                     <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px;'>
                       <span style='margin-right: 5px'>2. </span>
@@ -115,10 +115,11 @@ const Tutorial = ({ isMobile }: Props) => {
                 fontSize: "20px",
                 lineHeight: "19.14px",
                 color: "white",
-                textAlign: "center"
+                textAlign: "center",
               }}
             >
-              Для участия в соревнованиях подойдут любые модели коньков (конькобежные, хоккейные, фигурные и т.д.)
+              Для участия в соревнованиях подойдут любые модели коньков
+              (конькобежные, хоккейные, фигурные и т.д.)
             </Typography>
           </Stack>
         </Stack>
@@ -130,14 +131,14 @@ const Tutorial = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile} onClick={() => {
-            window
-              .open(
-                "https://mosgorsport.timepad.ru/event/2304453/",
-                "_blank"
-              )
-              ?.focus()
-          }} />
+          <RegBtn
+            isMobile={isMobile}
+            onClick={() => {
+              window
+                .open("https://mosgorsport.timepad.ru/event/2304453/", "_blank")
+                ?.focus();
+            }}
+          />
         </Box>
       </Box>
     </Container>
@@ -145,9 +146,11 @@ const Tutorial = ({ isMobile }: Props) => {
     <Box sx={{ mt: "32px", width: "100%" }}>
       <Stack sx={{ px: "5px" }}>
         <Header isMobile={isMobile} text="КАК ПРИНЯТЬ УЧАСТИЕ" />
-        <Box sx={{
-          position: "relative",
-        }}>
+        <Box
+          sx={{
+            position: "relative",
+          }}
+        >
           <Box
             sx={{
               backgroundImage: "url(/images/backgrounds/mobile/tutorBg.svg)",
@@ -155,12 +158,13 @@ const Tutorial = ({ isMobile }: Props) => {
               backgroundSize: "cover",
               height: "700px",
               width: "100%",
-              mt: "32px"
+              mt: "32px",
             }}
           >
             <Stack
               sx={{
-                height: "100%", width: "100%",
+                height: "100%",
+                width: "100%",
               }}
               justifyContent={"center"}
               alignItems={"center"}
@@ -186,9 +190,9 @@ const Tutorial = ({ isMobile }: Props) => {
                       <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>Индивидуальные</span>  
                       заявки подаются через форму регистрации на сайте, 
                       <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>коллективные</span> 
-                      отправляются на почту 
+                      — отправляются на почту 
                       <a href="mailto:mosskater@yandex.ru" style='text-decoration: underline; text-decoration-thickness: 1px'>mosskater@yandex.ru</a> 
-                      (шаблон в <span onClick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" style="text-decoration: underline; text-decoration-thickness: 1px">Положении</span>).</div>
+                      (шаблон в <span onClick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" style="text-decoration: underline; text-decoration-thickness: 1px; cursor: pointer">Положении</span>).</div>
                     </div>
                     <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px'>
                       <span style='margin-right: 5px'>2. </span>
@@ -243,10 +247,11 @@ const Tutorial = ({ isMobile }: Props) => {
                     fontSize: isSmaller ? "16px" : "14px",
                     lineHeight: "15.31px",
                     color: "white",
-                    textAlign: "center"
+                    textAlign: "center",
                   }}
                 >
-                  Для участия в соревнованиях подойдут любые модели коньков (конькобежные, хоккейные, фигурные и т.д.)
+                  Для участия в соревнованиях подойдут любые модели коньков
+                  (конькобежные, хоккейные, фигурные и т.д.)
                 </Typography>
               </Stack>
             </Stack>
@@ -277,21 +282,26 @@ const Tutorial = ({ isMobile }: Props) => {
             position: "relative",
           }}
         >
-          <Stack sx={{
-            position: "absolute",
-            bottom: "-30px",
-            width: "100%",
-            justifyContent: "center",
-            alignItems: "center"
-          }}>
-            <RegBtn isMobile={isMobile} onClick={() => {
-              window
-                .open(
-                  "https://mosgorsport.timepad.ru/event/2304453/",
-                  "_blank"
-                )
-                ?.focus()
-            }} />
+          <Stack
+            sx={{
+              position: "absolute",
+              bottom: "-30px",
+              width: "100%",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <RegBtn
+              isMobile={isMobile}
+              onClick={() => {
+                window
+                  .open(
+                    "https://mosgorsport.timepad.ru/event/2304453/",
+                    "_blank"
+                  )
+                  ?.focus();
+              }}
+            />
           </Stack>
         </Box>
       </Stack>
