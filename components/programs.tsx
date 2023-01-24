@@ -95,7 +95,7 @@ const Programs = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile} onClick={() => {}} />
+          <RegBtn isMobile={isMobile} onClick={() => { }} />
         </Box>
       </Box>
     </Container>
@@ -167,15 +167,15 @@ const Programs = ({ isMobile }: Props) => {
                 __html: `<strong>Важно:</strong> Результаты фиксируются с помощью программы хронометража циклических видов спорта «L-SPORT»`,
               }}
             />
-            <Box
-              sx={{
-                position: "absolute",
-                bottom: "-10%",
-                width: "342px",
-              }}
-            >
-              <RegBtn isMobile={isMobile} onClick={() => {}} />
-            </Box>
+            <Stack sx={{
+              position: "absolute",
+              bottom: "-50px",
+              width: "100%",
+              justifyContent: "center",
+              alignItems: "center"
+            }}>
+              <RegBtn isMobile={isMobile} onClick={() => { }} />
+            </Stack>
           </Stack>
         </Box>
       </Stack>

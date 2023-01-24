@@ -1,4 +1,4 @@
-import { Box, Button, Stack, Typography } from "@mui/material";
+import { Box, Button, Stack, Typography, useMediaQuery } from "@mui/material";
 import React, { useState } from "react";
 
 interface Props {
@@ -8,9 +8,11 @@ interface Props {
 
 const RegBtn = ({ onClick, isMobile }: Props) => {
   const [isHover, setHover] = useState<boolean>(false);
+  const isSmaller = useMediaQuery("(min-width:400px)");
+
 
   return (
-    <Box sx={{ position: "relative", zIndex: 2 }}>
+    <Box sx={{ position: "relative", zIndex: 2}}>
       <Stack
         sx={{
           backgroundImage: "url(/images/backgrounds/btnBgF.svg)",
@@ -18,6 +20,7 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
           backgroundSize: "cover",
           height: "100%",
           width: "91%",
+          minWidth: "323px",
           py: isMobile ? "21px" : "15px",
           justifyContent: "center",
           alignItems: "center",
@@ -57,6 +60,7 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
           backgroundSize: "cover",
           height: isMobile ? "85px" : "54px",
           width: "96%",
+          minWidth: "340px",
           position: "absolute",
           bottom: "6px",
           left: "-20px",

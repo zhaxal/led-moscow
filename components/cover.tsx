@@ -193,13 +193,13 @@ const Cover = ({ isMobile }: Props) => {
             sx={{
               fontFamily: "Mossport",
               fontWeight: 400,
-              fontSize: isSmaller ? "20px" : "18px",
+              fontSize: isSmaller ? "20px" : "17px",
               lineHeight: "20px",
               textAlign: "right",
               maxWidth: "171px",
               maxHeight: "40px",
               color: "white",
-              mr: isSmaller ? "-15px" : "-15px",
+              mr: isSmaller ? "-15px" : "-5px",
             }}
           >
             СОРЕВНОВАНИЯ ПО КОНЬКОБЕЖНОМУ СПОРТУ
@@ -265,7 +265,7 @@ const Cover = ({ isMobile }: Props) => {
         sx={{
           position: "absolute",
           bottom: "4px",
-          right: "5%",
+          right: isSmaller ? "5%" : "0px",
           width: "342px",
         }}
       >

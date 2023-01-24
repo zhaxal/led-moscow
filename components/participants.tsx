@@ -110,7 +110,7 @@ const Participants = ({ isMobile }: Props) => {
       </Box>
     </Container>
   ) : (
-    <Box sx={{ mt: "64px", width: "100%" }}>
+    <Box sx={{ mt: "90px", width: "100%" }}>
       <Stack spacing={"56px"}>
         <Header isMobile={isMobile} text="УЧАСТНИКИ И ДИСТАНЦИЙ" />
         <Box

@@ -94,7 +94,7 @@ const Tutorial = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile} onClick={() => {}} />
+          <RegBtn isMobile={isMobile} onClick={() => { }} />
         </Box>
       </Box>
     </Container>
@@ -121,10 +121,10 @@ const Tutorial = ({ isMobile }: Props) => {
               sx={{
                 fontFamily: "Gotham Pro Light",
                 fontSize: isSmaller ? "16px" : "14px",
-                lineHeight: "20px",
+                lineHeight: isSmaller ? "20px" : "18px",
                 fontWeight: 400,
                 color: "white",
-                width: "87%",
+                width: "80%",
               }}
               dangerouslySetInnerHTML={{
                 __html: `
@@ -147,7 +147,7 @@ const Tutorial = ({ isMobile }: Props) => {
                 justifyContent: "center",
                 alignItems: "center",
                 border: "1px dashed #FFFFFF",
-                py: "5px",
+                py: isSmaller ? "5px" : "0px",
               }}
             >
               <Typography
@@ -177,18 +177,15 @@ const Tutorial = ({ isMobile }: Props) => {
             position: "relative",
           }}
         >
-          <Box
-            sx={{
-              position: "absolute",
-              bottom: "-30px",
-              right: 0,
-              left: 0,
-              mx: "auto",
-              width: "342px",
-            }}
-          >
-            <RegBtn isMobile={isMobile} onClick={() => {}} />
-          </Box>
+          <Stack sx={{
+            position: "absolute",
+            bottom: "-30px",
+            width: "100%",
+            justifyContent: "center",
+            alignItems: "center"
+          }}>
+            <RegBtn isMobile={isMobile} onClick={() => { }} />
+          </Stack>
         </Box>
       </Stack>
     </Box>

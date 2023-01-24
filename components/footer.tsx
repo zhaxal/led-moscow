@@ -45,6 +45,23 @@ const Footer = ({ isMobile }: Props) => {
                   fontWeight: 700,
                   fontSize: "24px",
                   lineHeight: "28.8px",
+                  textDecoration: "underline",
+                  textDecorationSkipInk: "none",
+                  textDecorationThickness: "1px"
+                }}
+              >
+                <a href={`/docs/Положение_Лед_надежды.docx`} download={`Положение_Лед_надежды.docx`}>
+                  Положение о проведении
+                </a>
+              </Typography>
+            </Box>
+            <Box>
+              <Typography
+                sx={{
+                  fontFamily: "Gotham Pro Regular",
+                  fontWeight: 700,
+                  fontSize: "24px",
+                  lineHeight: "28.8px",
                 }}
               >
                 Контакт организатора:
@@ -87,7 +104,7 @@ const Footer = ({ isMobile }: Props) => {
           </Stack>
         </Stack>
       </Box>
-    </Container>
+    </Container >
   ) : (
     <Box sx={{ mt: "61px", mb: "66px", position: "relative" }}>
       <iframe
@@ -118,6 +135,21 @@ const Footer = ({ isMobile }: Props) => {
         >
           <IceIcon isMobile={isMobile} />
           <Stack spacing={"50px"} sx={{ width: "100%" }}>
+            <Typography
+              sx={{
+                fontFamily: "Gotham Pro Regular",
+                fontWeight: 700,
+                fontSize: "20px",
+                lineHeight: "24px",
+                textDecoration: "underline",
+                textDecorationSkipInk: "none",
+                textDecorationThickness: "1px"
+              }}
+            >
+              <a href={`/docs/Положение_Лед_надежды.docx`} download={`Положение_Лед_надежды.docx`}>
+                Положение о проведении
+              </a>
+            </Typography>
             <Box>
               <Typography
                 sx={{

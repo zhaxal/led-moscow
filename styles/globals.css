@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: Mossport; /* Гарнитура шрифта */
   src: url(../public/fonts/Mossport.otf); /* Путь к файлу со шрифтом */
