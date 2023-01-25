@@ -72,7 +72,6 @@ const Tutorial = ({ isMobile }: Props) => {
                         <ul style="margin-left: 30px;">
                           <li style='margin-bottom: 10px; color: white' data-mce-style='margin-bottom: 10px'>паспорт или свидетельство о рождении;</li>
                           <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>полис ОМС или ДМС;</li>
-                          <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>полис страхования жизни и здоровья от несчастных случаев, действительный на день соревнования;</li>
                           <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
                         </ul>
                       </div>
@@ -201,7 +200,6 @@ const Tutorial = ({ isMobile }: Props) => {
                         <ul style="margin-left: 30px;">
                           <li style='margin-bottom: 5px; color: white' data-mce-style='margin-bottom: 5px'>паспорт или свидетельство о рождении;</li>
                           <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис ОМС или ДМС;</li>
-                          <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис страхования жизни и здоровья от несчастных случаев, действительный на день соревнования;</li>
                           <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
                         </ul>
                       </div>
