@@ -56,10 +56,10 @@ const About = ({ isMobile }: Props) => {
                 </br>
                 </br>
                   <ul style="margin-left: 2em">
-                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Валерий Муратов — трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России; </li>
-                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Светлана Журова — олимпийская чемпионка;</li>
-                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Дмитрий Дорофеев — серебряный призёр олимпийских игр;</li>
-                      <li style='fontFamily: "Gotham Pro Light";' data-mce-style='fontFamily: "Gotham Pro Light";'>Екатерина Лобышева — бронзовый призёр в командной гонке на Олимпийских играх и другие.</li>
+                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Валерий Муратов, трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России; </li>
+                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Светлана Журова, олимпийская чемпионка;</li>
+                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Дмитрий Дорофеев, серебряный призёр олимпийских игр;</li>
+                      <li style='fontFamily: "Gotham Pro Light";' data-mce-style='fontFamily: "Gotham Pro Light";'>Екатерина Лобышева, бронзовый призёр в командной гонке на Олимпийских играх и другие.</li>
                   </ul>
               </div>`,
             }}
@@ -119,10 +119,10 @@ const About = ({ isMobile }: Props) => {
                   </br>
                   </br>
                     <ul style="margin-left: 2em">
-                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Валерий Муратов — трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России; </li>
-                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Светлана Журова — олимпийская чемпионка;</li>
-                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Дмитрий Дорофеев — серебряный призёр олимпийских игр;</li>
-                        <li style='fontFamily: "Gotham Pro Light";' data-mce-style='fontFamily: "Gotham Pro Light";'>Екатерина Лобышева — бронзовый призёр в командной гонке на Олимпийских играх и другие.</li>
+                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Валерий Муратов, трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России; </li>
+                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Светлана Журова, олимпийская чемпионка;</li>
+                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Дмитрий Дорофеев, серебряный призёр олимпийских игр;</li>
+                        <li style='fontFamily: "Gotham Pro Light";' data-mce-style='fontFamily: "Gotham Pro Light";'>Екатерина Лобышева, бронзовый призёр в командной гонке на Олимпийских играх и другие.</li>
                     </ul>
                 </div>`,
                 }}
