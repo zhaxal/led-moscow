@@ -53,6 +53,7 @@ const Footer = ({ isMobile }: Props) => {
                 <a
                   href={`https://disk.yandex.ru/i/5toaaRtmFpG8Lw`}
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   Положение о проведении
                 </a>
@@ -152,6 +153,7 @@ const Footer = ({ isMobile }: Props) => {
               <a
                 href={`https://disk.yandex.ru/i/5toaaRtmFpG8Lw`}
                 target={"_blank"}
+                rel="noreferrer"
               >
                 Положение о проведении
               </a>
