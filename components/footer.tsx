@@ -51,7 +51,7 @@ const Footer = ({ isMobile }: Props) => {
                 }}
               >
                 <a
-                  href={`https://disk.yandex.ru/i/5toaaRtmFpG8Lw`}
+                  href={`https://disk.yandex.ru/i/kWvaoBKTWeU9mQ`}
                   target={"_blank"}
                   rel="noreferrer"
                 >
@@ -151,7 +151,7 @@ const Footer = ({ isMobile }: Props) => {
               }}
             >
               <a
-                href={`https://disk.yandex.ru/i/5toaaRtmFpG8Lw`}
+                href={`https://disk.yandex.ru/i/kWvaoBKTWeU9mQ`}
                 target={"_blank"}
                 rel="noreferrer"
               >
