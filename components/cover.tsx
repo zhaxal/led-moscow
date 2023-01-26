@@ -44,7 +44,7 @@ const Cover = ({ isMobile }: Props) => {
                 component={"img"}
                 src={"/images/logos/100mossportLogo.svg"}
               />
-              <Box component={"img"} src={"/images/logos/skateLogo.svg"} />
+              <Box component={"img"} src={"/images/logos/skateLogo.svg"} sx={{maxWidth: "175px"}}/>
             </Stack>
           </Stack>
           <Stack
