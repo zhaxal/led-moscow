@@ -36,7 +36,7 @@ const Cover = ({ isMobile }: Props) => {
           }}
           spacing={"111px"}
         >
-          <Stack direction={"row"} spacing={"33px"} sx={{ mr: "4em" }}>
+          <Stack direction={"row"} spacing={"33px"} sx={{ mr: "-1em" }}>
             <Box component={"img"} src={"/images/logos/departmentLogo.svg"} />
             <Stack direction={"row"} spacing={"12px"}>
               <Box component={"img"} src={"/images/logos/mossportLogo.svg"} />
@@ -44,7 +44,12 @@ const Cover = ({ isMobile }: Props) => {
                 component={"img"}
                 src={"/images/logos/100mossportLogo.svg"}
               />
-              <Box component={"img"} src={"/images/logos/skateLogo.svg"} sx={{maxWidth: "175px"}}/>
+              <Box component={"img"} src={"/images/logos/federationLogo.svg"} />
+              <Box
+                component={"img"}
+                src={"/images/logos/skateLogo.svg"}
+                sx={{ maxWidth: "175px" }}
+              />
             </Stack>
           </Stack>
           <Stack
@@ -167,29 +172,41 @@ const Cover = ({ isMobile }: Props) => {
           direction={"row"}
           sx={{
             width: "100%",
-            justifyContent: "space-around",
+            justifyContent: "space-between",
+            mr: isSmaller ? "-5%" : "-4px",
           }}
+          spacing={isSmaller ? 2 : "3px"}
         >
-          <Box
-            component={"img"}
-            src={"/images/logos/mobile/departmentLogo.svg"}
-            sx={{ maxWidth: "86px", height: "43px" }}
-          />
-          <Box
-            component={"img"}
-            src={"/images/logos/mobile/mossportLogo.svg"}
-            sx={{ maxWidth: "86px", height: "43px" }}
-          />
-          <Box
-            component={"img"}
-            src={"/images/logos/mobile/100mossportLogo.svg"}
-            sx={{ maxWidth: "86px", height: "43px" }}
-          />
-          <Box
-            component={"img"}
-            src={"/images/logos/mobile/skateLogo.svg"}
-            sx={{ maxWidth: "86px", height: "43px" }}
-          />
+          <Stack direction={"row"} spacing={isSmaller ? "12px" : "22px"}>
+            <Box
+              component={"img"}
+              src={"/images/logos/mobile/departmentLogo.svg"}
+              sx={{ maxWidth: isSmaller ? "75px" : "65px", height: "43px" }}
+            />
+
+            <Box
+              component={"img"}
+              src={"/images/logos/mobile/mossportLogo.svg"}
+              sx={{ maxWidth: isSmaller ? "83px" : "73px", height: "43px" }}
+            />
+          </Stack>
+          <Stack direction={"row"} spacing={isSmaller ? "12px" : "5px"}>
+            <Box
+              component={"img"}
+              src={"/images/logos/mobile/100mossportLogo.svg"}
+              sx={{ maxWidth: isSmaller ? "72px" : "62px", height: "43px" }}
+            />
+            <Box
+              component={"img"}
+              src={"/images/logos/mobile/federationLogo.svg"}
+              sx={{ maxWidth: isSmaller ? "44px" : "34px", height: "43px" }}
+            />
+            <Box
+              component={"img"}
+              src={"/images/logos/mobile/skateLogo.svg"}
+              sx={{ maxWidth: isSmaller ? "86px" : "76px", height: "43px" }}
+            />
+          </Stack>
         </Stack>
         <Stack
           direction={"row"}
