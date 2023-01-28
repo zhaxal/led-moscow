@@ -58,7 +58,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Лёд надежды нашей 2023" />
         <meta
           property="description"
-          content="Московский спорт представляет большой лыжный праздник 11 и 12 февраля в Битце»"
+          content="«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта."
         />
         <meta property="og:url" content="https://led.moscow.sport/" />
         <meta property="og:type" content="website" />
