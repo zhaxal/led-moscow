@@ -63,7 +63,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:url" content="https://led.moscow.sport/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/icelogo.ico" />
-        <link rel="icon" href="/icelogo.ico" />
+        <link rel="icon" href="/images/icelogo.png" />
         <title>Лёд надежды нашей 2023</title>
         <meta name="yandex-verification" content="683c73cabb64ee20" />
       </Head>
