@@ -9,6 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Script
+        id="metaScript"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
