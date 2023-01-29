@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
           __html: JSON.stringify({
             "@context": "http://www.schema.org",
             "@type": "SportsEvent",
-            name: "Лёд надежды нашей 2023", 
+            name: "Лёд надежды нашей 2023",
             url: "https://led.moscow.sport/",
             description:
               "«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта.",
@@ -40,20 +40,29 @@ export default function App({ Component, pageProps }: AppProps) {
         dangerouslySetInnerHTML={{
           __html: `
           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-          m[i].l=1*new Date();
-          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-          (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-       
-          ym(91937297, "init", {
-               clickmap:true,
-               trackLinks:true,
-               accurateTrackBounce:true,
-               webvisor:true
-          });
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(92219555, "init", {
+                  clickmap:true,
+                  trackLinks:true,
+                  accurateTrackBounce:true,
+                  webvisor:true
+            });
             `,
         }}
       />
+      <noscript>
+        <div>
+          <img
+            src="https://mc.yandex.ru/watch/92219555"
+            style={{ position: "absolute", left: "-9999px;" }}
+            alt=""
+          />
+        </div>
+      </noscript>
       <Head>
         <meta property="og:title" content="Лёд надежды нашей 2023" />
         <meta
