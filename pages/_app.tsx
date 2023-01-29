@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
           __html: JSON.stringify({
             "@context": "http://www.schema.org",
             "@type": "SportsEvent",
-            name: "Лёд надежды нашей 2023",
+            name: "Лёд надежды нашей 2023", 
             url: "https://led.moscow.sport/",
             description:
               "«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта.",
