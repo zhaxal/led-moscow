@@ -8,6 +8,19 @@ import Script from "next/script";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
+      <Head>
+        <meta property="og:title" content="Лёд надежды нашей 2023" />
+        <meta
+          property="description"
+          content="«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта."
+        />
+        <meta property="og:url" content="https://led.moscow.sport/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/images/icelogo.png" />
+        <link rel="icon" href="/icelogo.ico" />
+        <title>Лёд надежды нашей 2023</title>
+        <meta name="yandex-verification" content="683c73cabb64ee20" />
+      </Head>
       <Script
         id="metaScript"
         type="application/ld+json"
@@ -63,20 +76,6 @@ export default function App({ Component, pageProps }: AppProps) {
           />
         </div>
       </noscript>
-      <Head>
-        <meta property="og:title" content="Лёд надежды нашей 2023" />
-        <meta
-          property="description"
-          content="«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта."
-        />
-        <meta property="og:url" content="https://led.moscow.sport/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/icelogo.png" />
-        <link rel="icon" href="/icelogo.ico" />
-        <title>Лёд надежды нашей 2023</title>
-        <meta name="yandex-verification" content="683c73cabb64ee20" />
-      </Head>
-
       <Component {...pageProps} />
     </ThemeProvider>
   );
