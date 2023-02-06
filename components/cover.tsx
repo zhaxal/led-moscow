@@ -141,7 +141,7 @@ const Cover = ({ isMobile }: Props) => {
             isMobile={isMobile}
             onClick={() => {
               window
-                .open("https://mosgorsport.timepad.ru/event/2304453/", "_blank")
+                .open("https://disk.yandex.ru/i/evjo6saQy_S5Ng", "_blank")
                 ?.focus();
             }}
           />
@@ -297,7 +297,7 @@ const Cover = ({ isMobile }: Props) => {
           isMobile={isMobile}
           onClick={() => {
             window
-              .open("https://mosgorsport.timepad.ru/event/2304453/", "_blank")
+              .open("https://disk.yandex.ru/i/evjo6saQy_S5Ng", "_blank")
               ?.focus();
           }}
         />

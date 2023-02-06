@@ -98,7 +98,7 @@ const Programs = ({ isMobile }: Props) => {
           <RegBtn isMobile={isMobile} onClick={() => {
             window
               .open(
-                "https://mosgorsport.timepad.ru/event/2304453/",
+                "https://disk.yandex.ru/i/evjo6saQy_S5Ng",
                 "_blank"
               )
               ?.focus()
@@ -184,7 +184,7 @@ const Programs = ({ isMobile }: Props) => {
               <RegBtn isMobile={isMobile} onClick={() => {
                 window
                   .open(
-                    "https://mosgorsport.timepad.ru/event/2304453/",
+                    "https://disk.yandex.ru/i/evjo6saQy_S5Ng",
                     "_blank"
                   )
                 ?.focus()

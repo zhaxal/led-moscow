@@ -45,7 +45,7 @@ export default function Home() {
         <div>
           <img
             src="https://mc.yandex.ru/watch/92219555"
-            style={{ position: "absolute", left: "-9999px;" }}
+            style={{ position: "absolute", left: "-9999px" }}
             alt=""
           />
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
           <div>
             <img
               src="https://top-fwz1.mail.ru/counter?id=3283202;js=na"
-              style={{ position: "absolute", left: "-9999px;" }}
+              style={{ position: "absolute", left: "-9999px" }}
               alt="Top.Mail.Ru"
             />
           </div>

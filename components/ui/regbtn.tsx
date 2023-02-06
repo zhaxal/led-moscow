@@ -49,7 +49,7 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
                 : "none",
             }}
           >
-            ЗАРЕГИСТРИРОВАТЬСЯ
+            РЕЗУЛЬТАТЫ
           </Typography>
         </Stack>
       </Stack>

@@ -71,7 +71,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <div>
           <img
             src="https://mc.yandex.ru/watch/92219555"
-            style={{ position: "absolute", left: "-9999px;" }}
+            style={{ position: "absolute", left: "-9999px" }}
             alt=""
           />
         </div>
