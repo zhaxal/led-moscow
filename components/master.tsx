@@ -137,7 +137,7 @@ const Master = ({ isMobile }: Props) => {
             spacing={"8px"}
           >
             <Box
-              width="412px"
+              width="360px"
               height="auto"
               component="img"
               src="/images/master_mobile.png"
