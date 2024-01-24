@@ -40,10 +40,6 @@ const Cover = ({ isMobile }: Props) => {
             <Box component={"img"} src={"/images/logos/departmentLogo.svg"} />
             <Stack direction={"row"} spacing={"12px"}>
               <Box component={"img"} src={"/images/logos/mossportLogo.svg"} />
-              <Box
-                component={"img"}
-                src={"/images/logos/100mossportLogo.svg"}
-              />
               <Box component={"img"} src={"/images/logos/federationLogo.svg"} />
               <Box
                 component={"img"}
@@ -191,11 +187,6 @@ const Cover = ({ isMobile }: Props) => {
             />
           </Stack>
           <Stack direction={"row"} spacing={isSmaller ? "12px" : "5px"}>
-            <Box
-              component={"img"}
-              src={"/images/logos/mobile/100mossportLogo.svg"}
-              sx={{ maxWidth: isSmaller ? "72px" : "62px", height: "43px" }}
-            />
             <Box
               component={"img"}
               src={"/images/logos/mobile/federationLogo.svg"}

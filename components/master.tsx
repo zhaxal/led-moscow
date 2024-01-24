@@ -119,10 +119,10 @@ const Master = ({ isMobile }: Props) => {
         <Header isMobile={isMobile} text="МАСТЕР-КЛАСС" />
         <Box
           sx={{
-            backgroundImage: "url(/images/backgrounds/mobile/programBg.png)",
+            backgroundImage: "url(/images/backgrounds/mobile/masterBg.png)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            height: "520px",
+            height: "990px",
             position: "relative",
             px: "40px",
           }}
@@ -135,7 +135,72 @@ const Master = ({ isMobile }: Props) => {
               alignItems: "center",
             }}
             spacing={"8px"}
-          ></Stack>
+          >
+            <Box
+              width="412px"
+              height="auto"
+              component="img"
+              src="/images/master_mobile.png"
+            />
+            <Stack spacing="45px">
+              <Box
+                maxWidth="400px"
+                sx={{
+                  fontSize: "16px",
+                  lineHeight: "normal",
+                  fontFamily: "Gotham Pro Light",
+                  color: "white",
+                }}
+              >
+                <div>
+                  <p style={{ textIndent: "25px" }}>
+                    После окончания соревнований все желающие смогут
+                    поучаствовать в мастер-классе по фигурному катанию.
+                    Мастер-класс проведут:
+                  </p>
+                  <br />
+                  <p style={{ textIndent: "25px" }}>
+                    <strong
+                      style={{
+                        fontWeight: 700,
+                        fontFamily: "Gotham Pro Regular",
+                      }}
+                    >
+                      Анна &nbsp;Погорилая
+                    </strong>{" "}
+                    - Бронзовый призёр чемпионата мира (2016), серебряный призёр
+                    чемпионата Европы (2017), двукратный бронзовый призёр
+                    чемпионата Европы (2015, 2016), и бронзовый призёр финала
+                    Гран-при (2016).
+                  </p>
+                  <br />
+                  <p style={{ textIndent: "25px" }}>
+                    <strong
+                      style={{
+                        fontWeight: 700,
+                        fontFamily: "Gotham Pro Regular",
+                      }}
+                    >
+                      Александр &nbsp;Энберт
+                    </strong>{" "}
+                    - Заслуженный мастер спорта России. Cеребряный призёр на
+                    Олимпийских играх в Корее в командных соревнованиях.
+                  </p>
+                </div>
+              </Box>
+              <Typography
+                sx={{
+                  fontFamily: "Gotham Pro Regular",
+                  fontWeight: 700,
+                  fontSize: "16px",
+                  lineHeight: "15px",
+                  color: "white",
+                }}
+              >
+                *для участия в мастер-классе требуется регистрация
+              </Typography>
+            </Stack>
+          </Stack>
         </Box>
       </Stack>
     </Box>

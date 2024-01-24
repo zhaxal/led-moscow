@@ -128,7 +128,7 @@ const Programs = ({ isMobile }: Props) => {
             backgroundImage: "url(/images/backgrounds/mobile/programBg.png)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            height: "520px",
+            height: "646px",
             position: "relative",
             px: "40px",
           }}
