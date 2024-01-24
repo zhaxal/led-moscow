@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <meta property="og:title" content="Лёд надежды нашей 2023" />
+        <meta property="og:title" content="Лёд надежды нашей 2024" />
         <meta
           property="description"
           content="«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта."
@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/images/icelogo.png" />
         <link rel="icon" href="/icelogo.ico" />
-        <title>Лёд надежды нашей 2023</title>
+        <title>Лёд надежды нашей 2024</title>
         <meta name="yandex-verification" content="683c73cabb64ee20" />
       </Head>
       <Script
@@ -28,12 +28,12 @@ export default function App({ Component, pageProps }: AppProps) {
           __html: JSON.stringify({
             "@context": "http://www.schema.org",
             "@type": "SportsEvent",
-            name: "Лёд надежды нашей 2023",
+            name: "Лёд надежды нашей 2024",
             url: "https://led.moscow.sport/",
             description:
               "«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта.",
-            startDate: "2023-02-04T08:00",
-            endDate: "2023-02-04T12:00",
+            startDate: "2024-02-03T08:00",
+            endDate: "2024-02-03T14:15",
             location: {
               "@type": "Place",
               name: "СК «ЛУЖНИКИ»",
