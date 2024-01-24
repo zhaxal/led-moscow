@@ -42,8 +42,14 @@ const Programs = ({ isMobile }: Props) => {
           <Stack sx={{ width: "736px" }} spacing={"8px"}>
             <Date
               dateFrom="8:00"
-              dateTo="8:50"
+              dateTo="9:00"
               desc="Регистрация участников, жеребьёвка"
+              isMobile={isMobile}
+            />
+            <Date
+              dateFrom="9:00"
+              dateTo="9:15"
+              desc="Открытие соревнований"
               isMobile={isMobile}
             />
             <Date
@@ -67,10 +73,17 @@ const Programs = ({ isMobile }: Props) => {
               девочки, затем мальчики. В каждом забеге участвуют по 3
               спортсмена).
             </Typography>
+            <Date dateFrom="12:00" desc="Награждение" isMobile={isMobile} />
             <Date
-              dateFrom="11:30"
-              dateTo="12:00"
-              desc="Подведение итогов и закрытие соревнований "
+              dateFrom="13:00"
+              dateTo="13:30"
+              desc="Мастер-класс Анны Погорилой"
+              isMobile={isMobile}
+            />
+            <Date
+              dateFrom="13:45"
+              dateTo="14:15"
+              desc="Мастер-класс  Александра Энберта"
               isMobile={isMobile}
             />
             <Typography
@@ -95,14 +108,14 @@ const Programs = ({ isMobile }: Props) => {
             width: "543px",
           }}
         >
-          <RegBtn isMobile={isMobile} onClick={() => {
-            window
-              .open(
-                "https://disk.yandex.ru/i/evjo6saQy_S5Ng",
-                "_blank"
-              )
-              ?.focus()
-          }} />
+          <RegBtn
+            isMobile={isMobile}
+            onClick={() => {
+              window
+                .open("https://mssport.timepad.ru/event/2748416/", "_blank")
+                ?.focus();
+            }}
+          />
         </Box>
       </Box>
     </Container>
@@ -131,8 +144,14 @@ const Programs = ({ isMobile }: Props) => {
           >
             <Date
               dateFrom="8:00"
-              dateTo="8:50"
+              dateTo="9:00"
               desc="Регистрация участников, жеребьёвка"
+              isMobile={isMobile}
+            />
+            <Date
+              dateFrom="9:00"
+              dateTo="9:15"
+              desc="Открытие соревнований"
               isMobile={isMobile}
             />
             <Date
@@ -156,10 +175,17 @@ const Programs = ({ isMobile }: Props) => {
               девочки, затем мальчики. В каждом забеге участвуют по 3
               спортсмена).
             </Typography>
+            <Date dateFrom="12:00" desc="Награждение" isMobile={isMobile} />
             <Date
-              dateFrom="11:30"
-              dateTo="12:00"
-              desc="Подведение итогов и закрытие соревнований "
+              dateFrom="13:00"
+              dateTo="13:30"
+              desc="Мастер-класс Анны Погорилой"
+              isMobile={isMobile}
+            />
+            <Date
+              dateFrom="13:45"
+              dateTo="14:15"
+              desc="Мастер-класс  Александра Энберта"
               isMobile={isMobile}
             />
             <Typography
@@ -174,21 +200,23 @@ const Programs = ({ isMobile }: Props) => {
                 __html: `<strong>Важно:</strong> Результаты фиксируются с помощью программы хронометража циклических видов спорта «L-SPORT»`,
               }}
             />
-            <Stack sx={{
-              position: "absolute",
-              bottom: "-50px",
-              width: "100%",
-              justifyContent: "center",
-              alignItems: "center"
-            }}>
-              <RegBtn isMobile={isMobile} onClick={() => {
-                window
-                  .open(
-                    "https://disk.yandex.ru/i/evjo6saQy_S5Ng",
-                    "_blank"
-                  )
-                ?.focus()
-              }} />
+            <Stack
+              sx={{
+                position: "absolute",
+                bottom: "-50px",
+                width: "100%",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <RegBtn
+                isMobile={isMobile}
+                onClick={() => {
+                  window
+                    .open("https://mssport.timepad.ru/event/2748416/", "_blank")
+                    ?.focus();
+                }}
+              />
             </Stack>
           </Stack>
         </Box>

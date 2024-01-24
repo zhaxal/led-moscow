@@ -134,7 +134,7 @@ const Tutorial = ({ isMobile }: Props) => {
             isMobile={isMobile}
             onClick={() => {
               window
-                .open("https://disk.yandex.ru/i/evjo6saQy_S5Ng", "_blank")
+                .open("https://mssport.timepad.ru/event/2748416/", "_blank")
                 ?.focus();
             }}
           />
@@ -294,7 +294,7 @@ const Tutorial = ({ isMobile }: Props) => {
               onClick={() => {
                 window
                   .open(
-                    "https://disk.yandex.ru/i/evjo6saQy_S5Ng",
+                    "https://mssport.timepad.ru/event/2748416/",
                     "_blank"
                   )
                   ?.focus();

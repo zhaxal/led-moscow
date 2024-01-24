@@ -108,7 +108,7 @@ const Cover = ({ isMobile }: Props) => {
                     color: "white",
                   }}
                 >
-                  4 ФЕВРАЛЯ
+                  3 ФЕВРАЛЯ
                 </Typography>
               </Stack>
               <Typography
@@ -124,7 +124,7 @@ const Cover = ({ isMobile }: Props) => {
                 }}
               >
                 {`СК «Лужники» 
-              Каток «Южный полюс»`}
+              Каток «Мечтатели»`}
               </Typography>
             </Stack>
           </Stack>
@@ -141,7 +141,7 @@ const Cover = ({ isMobile }: Props) => {
             isMobile={isMobile}
             onClick={() => {
               window
-                .open("https://disk.yandex.ru/i/evjo6saQy_S5Ng", "_blank")
+                .open("https://mssport.timepad.ru/event/2748416/", "_blank")
                 ?.focus();
             }}
           />
@@ -265,7 +265,7 @@ const Cover = ({ isMobile }: Props) => {
                 color: "white",
               }}
             >
-              4 ФЕВРАЛЯ
+              3 ФЕВРАЛЯ
             </Typography>
           </Stack>
           <Typography
@@ -281,7 +281,7 @@ const Cover = ({ isMobile }: Props) => {
             }}
           >
             {`СК «Лужники» 
-              Каток «Южный полюс»`}
+              Каток «Мечтатели»`}
           </Typography>
         </Stack>
       </Stack>
@@ -297,7 +297,7 @@ const Cover = ({ isMobile }: Props) => {
           isMobile={isMobile}
           onClick={() => {
             window
-              .open("https://disk.yandex.ru/i/evjo6saQy_S5Ng", "_blank")
+              .open("https://mssport.timepad.ru/event/2748416/", "_blank")
               ?.focus();
           }}
         />

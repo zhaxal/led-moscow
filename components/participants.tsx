@@ -46,7 +46,7 @@ const Participants = ({ isMobile }: Props) => {
                   color: "white",
                 }}
               >
-                50 М
+                100 М
               </Typography>
             </Stack>
             <Groups
@@ -59,19 +59,6 @@ const Participants = ({ isMobile }: Props) => {
               group="2 группа"
               desc="школьники с 3-го по 5-ый класс"
             />
-            <Stack justifyContent={"center"} alignItems={"center"}>
-              <Typography
-                sx={{
-                  fontFamily: "Mossport",
-                  fontWeight: 400,
-                  fontSize: "36px",
-                  lineHeight: "36px",
-                  color: "white",
-                }}
-              >
-                100 М
-              </Typography>
-            </Stack>
             <Groups
               isMobile={isMobile}
               group="3 группа"
@@ -85,12 +72,12 @@ const Participants = ({ isMobile }: Props) => {
             <Groups
               isMobile={isMobile}
               group="5 группа"
-              desc="мужчины и женщины 1997-2004 гг.р."
+              desc="мужчины и женщины 1998-2005 гг.р. (18-25 лет)"
             />
             <Groups
               isMobile={isMobile}
               group="6 группа"
-              desc="мужчины и женщины 1996 г.р. и старше"
+              desc="мужчины и женщины 1997 г.р. (26 лет и старше )"
             />
             <Stack justifyContent={"center"} alignItems={"center"}>
               <Typography

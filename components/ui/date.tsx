@@ -4,7 +4,7 @@ import React from "react";
 
 interface Props {
   dateFrom: string;
-  dateTo: string;
+  dateTo?: string;
   desc: string;
   isMobile: boolean;
 }
@@ -43,7 +43,7 @@ const Date = ({ dateFrom, dateTo, desc, isMobile }: Props) => {
             textAlign: "center",
           }}
         >
-          {dateFrom} - {dateTo}
+          {`${dateFrom} ${dateTo ? `- ${dateTo}` : ""}`}
         </Typography>
       </Stack>
 
