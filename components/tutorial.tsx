@@ -124,6 +124,18 @@ const Tutorial = ({ isMobile }: Props) => {
               (конькобежные, хоккейные, фигурные и т.д.)
             </Typography>
           </Stack>
+          <Typography
+            sx={{
+              fontFamily: "Gotham Pro Regular",
+              fontWeight: 700,
+              fontSize: "20px",
+              lineHeight: "normal",
+              color: "white",
+            }}
+          >
+            *для участия в мастер-классе не нужны справки, достаточно только
+            регистрации
+          </Typography>
         </Stack>
         <Box
           sx={{
@@ -158,7 +170,7 @@ const Tutorial = ({ isMobile }: Props) => {
               backgroundImage: "url(/images/backgrounds/mobile/tutorBg.svg)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              height: "700px",
+              height: "760px",
               width: "100%",
               mt: "32px",
             }}
@@ -258,6 +270,19 @@ const Tutorial = ({ isMobile }: Props) => {
                   (конькобежные, хоккейные, фигурные и т.д.)
                 </Typography>
               </Stack>
+              <Typography
+                sx={{
+                  width: "80%",
+                  fontFamily: "Gotham Pro Regular",
+                  fontWeight: 700,
+                  fontSize: "16px",
+                  lineHeight: "normal",
+                  color: "white",
+                }}
+              >
+                *для участия в мастер-классе не нужны справки, достаточно только
+                регистрации
+              </Typography>
             </Stack>
           </Box>
           <Box
