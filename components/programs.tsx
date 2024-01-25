@@ -166,8 +166,8 @@ const Programs = ({ isMobile }: Props) => {
                 fontStyle: "italic",
                 textAlign: "center",
                 color: "white",
-                fontSize: "16px",
-                lineHeight: "16px",
+                fontSize: "14x",
+                lineHeight: "14px",
                 fontWeight: 500,
               }}
             >
@@ -192,7 +192,7 @@ const Programs = ({ isMobile }: Props) => {
               sx={{
                 fontFamily: "Gotham Pro Light",
                 color: "white",
-                fontSize: "16px",
+                fontSize: "14px",
                 lineHeight: "15px",
                 fontWeight: 500,
               }}

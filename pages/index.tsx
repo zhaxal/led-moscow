@@ -51,7 +51,9 @@ export default function Home() {
           />
         </div>
       </noscript>
-      <Box>
+      <Box sx={{
+        overflowX: "hidden",
+      }}>
         <Script
           id="mailCounter"
           type="text/javascript"

@@ -33,7 +33,7 @@ const Groups = ({ group, desc, isMobile }: Props) => {
           sx={{
             fontFamily: "Gotham Pro Bold",
             fontWeight: 700,
-            fontSize: isMobile ? "24px" : "16px",
+            fontSize: isMobile ? "24px" : "14px",
             lineHeight: isMobile ? "23px" : "15px",
             color: "black",
           }}
@@ -46,7 +46,7 @@ const Groups = ({ group, desc, isMobile }: Props) => {
         sx={{
           fontFamily: "Gotham Pro Light",
           fontWeight: 400,
-          fontSize: isMobile ? "24px" : "16px",
+          fontSize: isMobile ? "24px" : "14px",
           lineHeight: isMobile ? "23px" : "15px",
           color: "black",
           width: "70%",

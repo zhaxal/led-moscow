@@ -160,7 +160,7 @@ const Participants = ({ isMobile }: Props) => {
                 sx={{
                   fontFamily: "Gotham Pro Regular",
                   fontWeight: 700,
-                  fontSize: "16px",
+                  fontSize: "14px",
                   lineHeight: "15px",
                   color: "white",
                 }}

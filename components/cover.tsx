@@ -36,9 +36,21 @@ const Cover = ({ isMobile }: Props) => {
           }}
           spacing={"111px"}
         >
-          <Stack direction={"row"} spacing={"33px"} sx={{ mr: "-1em" }}>
-            <Box component={"img"} src={"/images/logos/departmentLogo.svg"} />
-            <Stack direction={"row"} spacing={"12px"}>
+          <Stack
+            width="100%"
+            direction={"row"}
+            spacing={"33px"}
+            sx={{ mr: "-1em" }}
+          >
+            <Stack direction="row" flexGrow={1}>
+              <Box component={"img"} src={"/images/logos/departmentLogo.svg"} />
+            </Stack>
+            <Stack
+              justifyContent="flex-end"
+              flexGrow={1}
+              direction={"row"}
+              spacing={"12px"}
+            >
               <Box component={"img"} src={"/images/logos/mossportLogo.svg"} />
               <Box component={"img"} src={"/images/logos/federationLogo.svg"} />
               <Box

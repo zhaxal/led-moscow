@@ -37,7 +37,7 @@ const Date = ({ dateFrom, dateTo, desc, isMobile }: Props) => {
           sx={{
             fontFamily: "Gotham Pro Light",
             fontWeight: 400,
-            fontSize: isMobile ? "24px" : "16px",
+            fontSize: isMobile ? "24px" : "14px",
             lineHeight: isMobile ? "23px" : "15px",
             color: "white",
             textAlign: "center",
@@ -51,7 +51,7 @@ const Date = ({ dateFrom, dateTo, desc, isMobile }: Props) => {
         sx={{
           fontFamily: "Gotham Pro Light",
           fontWeight: 400,
-          fontSize: isMobile ? "24px" : "16px",
+          fontSize: isMobile ? "24px" : "14px",
           lineHeight: isMobile ? "23px" : "15px",
           color: "white",
           width: isSmaller ? "70%" : "60%",

@@ -52,39 +52,42 @@ const Tutorial = ({ isMobile }: Props) => {
             }}
             dangerouslySetInnerHTML={{
               __html: `
+              <div>
+                <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px;'>
+                  <span style='margin-right: 5px'>1. </span>
+                  <div>Зарегистрироваться 
+                  <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 2 февраля</span> 
+                  включительно. 
+                  <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>Индивидуальные</span>  
+                  заявки подаются через форму регистрации на сайте, 
+                  <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>коллективные</span> 
+                  — отправляются на две почты:
+                  <a href="mailto:zao@mosgorsport.ru" style='text-decoration: underline; text-decoration-thickness: 1px'>zao@mosgorsport.ru</a> 
+                  и
+                  <a href="mailto:mosskater@yandex.ru" style='text-decoration: underline; text-decoration-thickness: 1px'>mosskater@yandex.ru</a> 
+                  (шаблон в <span onClick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" style="text-decoration: underline; text-decoration-thickness: 1px; cursor: pointer">Положении</span>).</div>
+                </div>
+                <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px'>
+                  <span style='margin-right: 5px'>2. </span>
                   <div>
-                    <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px;'>
-                      <span style='margin-right: 10px'>1. </span>
-                      <div>Зарегистрироваться 
-                      <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 2 февраля</span> 
-                      включительно. 
-                      <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>Индивидуальные</span>  
-                      заявки подаются через форму регистрации на сайте, 
-                      <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>коллективные</span> 
-                      — отправляются на почту 
-                      <a href="mailto:mosskater@yandex.ru" style='text-decoration: underline; text-decoration-thickness: 1px'>mosskater@yandex.ru</a> 
-                      (шаблон в <span onClick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" style="text-decoration: underline; text-decoration-thickness: 1px; cursor: pointer">Положении</span>).</div>
-                    </div>
-                    <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px;'>
-                      <span style='margin-right: 5px'>2. </span>
-                      <div>
-                        <div style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Собрать пакет документов (оригиналы):</div>
-                        <ul style="margin-left: 30px;">
-                          <li style='margin-bottom: 10px; color: white' data-mce-style='margin-bottom: 10px'>паспорт или свидетельство о рождении;</li>
-                          <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>полис ОМС или ДМС;</li>
-                          <li style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px;'>
-                      <span style='margin-right: 5px'>3. </span>
-                      <div style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>Предоставить документы в зоне регистрации перед </br> началом соревнований.</div>
-                    </div>
-                    <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 10px;'>
-                      <span style='margin-right: 5px'>4. </span>
-                      <div style='margin-bottom: 10px' data-mce-style='margin-bottom: 10px'>На старт! Желаем успехов!</div>
-                    </div>
-                  </div>`,
+                    <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>Собрать пакет документов (оригиналы):</div>
+                    <ul style="margin-left: 30px;">
+                      <li style='margin-bottom: 5px; color: white' data-mce-style='margin-bottom: 5px'>паспорт или свидетельство о рождении;</li>
+                      <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис ОМС или ДМС;</li>
+                      <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис страхования жизни и здоровья от несчастных случаев, действительный на день соревнования;</li>
+                      <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
+                    </ul>
+                  </div>
+                </div>
+                <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px'>
+                  <span style='margin-right: 5px'>3. </span>
+                  <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>Предоставить документы в зоне регистрации перед </br> началом соревнований.</div>
+                </div>
+                <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px'>
+                  <span style='margin-right: 5px'>4. </span>
+                  <div style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>На старт! Желаем успехов!</div>
+                </div>
+              </div>`,
             }}
           />
           <Stack
@@ -189,7 +192,9 @@ const Tutorial = ({ isMobile }: Props) => {
                       <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>Индивидуальные</span>  
                       заявки подаются через форму регистрации на сайте, 
                       <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>коллективные</span> 
-                      — отправляются на почту 
+                      — отправляются на две почты:
+                      <a href="mailto:zao@mosgorsport.ru" style='text-decoration: underline; text-decoration-thickness: 1px'>zao@mosgorsport.ru</a> 
+                      и
                       <a href="mailto:mosskater@yandex.ru" style='text-decoration: underline; text-decoration-thickness: 1px'>mosskater@yandex.ru</a> 
                       (шаблон в <span onClick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })" style="text-decoration: underline; text-decoration-thickness: 1px; cursor: pointer">Положении</span>).</div>
                     </div>
@@ -200,6 +205,7 @@ const Tutorial = ({ isMobile }: Props) => {
                         <ul style="margin-left: 30px;">
                           <li style='margin-bottom: 5px; color: white' data-mce-style='margin-bottom: 5px'>паспорт или свидетельство о рождении;</li>
                           <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис ОМС или ДМС;</li>
+                          <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>полис страхования жизни и здоровья от несчастных случаев, действительный на день соревнования;</li>
                           <li style='margin-bottom: 5px' data-mce-style='margin-bottom: 5px'>медицинское заключение о допуске к спортивным соревнованиям по форме 1144-н;</li>
                         </ul>
                       </div>
@@ -293,10 +299,7 @@ const Tutorial = ({ isMobile }: Props) => {
               isMobile={isMobile}
               onClick={() => {
                 window
-                  .open(
-                    "https://mssport.timepad.ru/event/2748416/",
-                    "_blank"
-                  )
+                  .open("https://mssport.timepad.ru/event/2748416/", "_blank")
                   ?.focus();
               }}
             />
