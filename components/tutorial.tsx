@@ -56,7 +56,7 @@ const Tutorial = ({ isMobile }: Props) => {
                 <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px;'>
                   <span style='margin-right: 5px'>1. </span>
                   <div>Зарегистрироваться 
-                  <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 2 февраля</span> 
+                  <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 1 февраля</span> 
                   включительно. 
                   <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>Индивидуальные</span>  
                   заявки подаются через форму регистрации на сайте, 
@@ -187,7 +187,7 @@ const Tutorial = ({ isMobile }: Props) => {
                     <div style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px' data-mce-style='display: flex; justify-content: flex-start; align-items: flex-start; margin-bottom: 5px;'>
                       <span style='margin-right: 5px'>1. </span>
                       <div>Зарегистрироваться 
-                      <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 2 февраля</span> 
+                      <span style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px' data-mce-style='font-weight: 700px; font-family: "Gotham Pro Bold"; text-decoration-skip-ink: none; text-decoration: underline; text-decoration-thickness: 1px'>до 1 февраля</span> 
                       включительно. 
                       <span style='font-weight: 700px; font-family: "Gotham Pro Bold";'>Индивидуальные</span>  
                       заявки подаются через форму регистрации на сайте, 
