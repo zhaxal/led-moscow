@@ -15,6 +15,7 @@ import Tutorial from "components/tutorial";
 import Footer from "components/footer";
 import Script from "next/script";
 import Master from "components/master";
+import Family from "components/family";
 
 export default function Home() {
   const theme = useTheme();
@@ -82,6 +83,7 @@ export default function Home() {
         <About isMobile={matches} />
         <Programs isMobile={matches} />
         <Participants isMobile={matches} />
+        <Family isMobile={matches} />
         <Master isMobile={matches} />
         <Tutorial isMobile={matches} />
         <Footer isMobile={matches} />
