@@ -101,6 +101,29 @@ const Family = ({ isMobile }: Props) => {
               />
             </Stack>
 
+            <Stack
+              component="a"
+              target={"_blank"}
+              href="/docs/regs.pdf"
+              my="1rem"
+              width="100%"
+              alignItems="center"
+              justifyContent="center"
+            >
+              <Typography
+                sx={{
+                  color: "white",
+                  textDecoration: "underline",
+                  fontSize: "20px",
+                  lineHeight: "20px",
+                  fontFamily: "Gotham Pro Medium",
+                  textAlign: "center",
+                }}
+              >
+                РЕГЛАМЕНТ ЭСТАФЕТЫ
+              </Typography>
+            </Stack>
+
             <Box
               sx={{
                 position: "absolute",
@@ -198,7 +221,30 @@ const Family = ({ isMobile }: Props) => {
                 </ol>
               </div>
             </div>
+            <Stack
+              component="a"
+              target={"_blank"}
+              href="/docs/regs.pdf"
+              my="1rem"
+              width="100%"
+              alignItems="center"
+              justifyContent="center"
+            >
+              <Typography
+                sx={{
+                  color: "white",
+                  textDecoration: "underline",
+                  fontSize: "16px",
+                  lineHeight: "16px",
+                  fontFamily: "Gotham Pro Medium",
+                  textAlign: "center",
+                }}
+              >
+                РЕГЛАМЕНТ ЭСТАФЕТЫ
+              </Typography>
+            </Stack>
           </Stack>
+
           <Stack
             sx={{
               position: "absolute",
