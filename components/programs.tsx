@@ -112,7 +112,7 @@ const Programs = ({ isMobile }: Props) => {
             isMobile={isMobile}
             onClick={() => {
               window
-                .open("https://mssport.timepad.ru/event/2748416/", "_blank")
+                .open("https://disk.yandex.ru/d/5NmRhM7qY5sdBQ", "_blank")
                 ?.focus();
             }}
           />
@@ -213,7 +213,7 @@ const Programs = ({ isMobile }: Props) => {
                 isMobile={isMobile}
                 onClick={() => {
                   window
-                    .open("https://mssport.timepad.ru/event/2748416/", "_blank")
+                    .open("https://disk.yandex.ru/d/5NmRhM7qY5sdBQ", "_blank")
                     ?.focus();
                 }}
               />

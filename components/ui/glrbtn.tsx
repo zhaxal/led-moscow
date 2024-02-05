@@ -6,7 +6,7 @@ interface Props {
   isMobile: boolean;
 }
 
-const RegBtn = ({ onClick, isMobile }: Props) => {
+const GlrBtn = ({ onClick, isMobile }: Props) => {
   const [isHover, setHover] = useState<boolean>(false);
   const isSmaller = useMediaQuery("(min-width:415px)");
 
@@ -49,7 +49,7 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
                 : "none",
             }}
           >
-            РЕЗУЛЬТАТЫ
+            БОЛЬШЕ ФОТО
           </Typography>
         </Stack>
       </Stack>
@@ -71,4 +71,4 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
   );
 };
 
-export default RegBtn;
+export default GlrBtn;
