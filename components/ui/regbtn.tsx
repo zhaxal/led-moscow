@@ -1,18 +1,19 @@
 import { Box, Button, Stack, Typography, useMediaQuery } from "@mui/material";
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 
 interface Props {
   onClick: () => void;
   isMobile: boolean;
 }
 
-const RegBtn = ({ onClick, isMobile }: Props) => {
+const RegBtn: React.FC<Props> = memo(({ onClick, isMobile }) => {
   const [isHover, setHover] = useState<boolean>(false);
-  const isSmaller = useMediaQuery("(min-width:415px)");
 
+  const handleMouseEnter = () => setHover(true);
+  const handleMouseLeave = () => setHover(false);
 
   return (
-    <Box sx={{ position: "relative", zIndex: 2}}>
+    <Box sx={{ position: "relative", zIndex: 2 }}>
       <Stack
         sx={{
           backgroundImage: "url(/images/backgrounds/btnBgF.svg)",
@@ -27,8 +28,8 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
           cursor: "pointer",
         }}
         onClick={onClick}
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         <Stack
           sx={{
@@ -69,6 +70,8 @@ const RegBtn = ({ onClick, isMobile }: Props) => {
       />
     </Box>
   );
-};
+});
+
+RegBtn.displayName = "RegBtn";
 
 export default RegBtn;
