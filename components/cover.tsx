@@ -116,7 +116,7 @@ const Cover = ({ isMobile }: Props) => {
                     color: "white",
                   }}
                 >
-                  3 ФЕВРАЛЯ
+                  1 ФЕВРАЛЯ
                 </Typography>
               </Stack>
               <Typography
@@ -131,13 +131,12 @@ const Cover = ({ isMobile }: Props) => {
                   mt: "10px",
                 }}
               >
-                {`СК «Лужники» 
-              Каток «Мечтатели»`}
+                {`ОК Лужники`}
               </Typography>
             </Stack>
           </Stack>
         </Stack>
-        <Box
+        {/* <Box
           sx={{
             position: "absolute",
             bottom: "3px",
@@ -153,7 +152,7 @@ const Cover = ({ isMobile }: Props) => {
                 ?.focus();
             }}
           />
-        </Box>
+        </Box> */}
       </Box>
     </Container>
   ) : (
@@ -268,7 +267,7 @@ const Cover = ({ isMobile }: Props) => {
                 color: "white",
               }}
             >
-              3 ФЕВРАЛЯ
+              1 ФЕВРАЛЯ
             </Typography>
           </Stack>
           <Typography
@@ -283,12 +282,11 @@ const Cover = ({ isMobile }: Props) => {
               mt: "20px",
             }}
           >
-            {`СК «Лужники» 
-              Каток «Мечтатели»`}
+            {`ОК Лужники`}
           </Typography>
         </Stack>
       </Stack>
-      <Box
+      {/* <Box
         sx={{
           position: "absolute",
           bottom: "4px",
@@ -304,7 +302,7 @@ const Cover = ({ isMobile }: Props) => {
               ?.focus();
           }}
         />
-      </Box>
+      </Box> */}
     </Box>
   );
 };

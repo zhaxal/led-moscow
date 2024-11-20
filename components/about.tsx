@@ -46,21 +46,17 @@ const About = ({ isMobile }: Props) => {
                 <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
                 text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
                 text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
-                России. Мероприятие ежегодно объединяет сотни любителей
-                конькобежного спорта.</span>
+                России.</span>
                 </br>
                 </br>
                 <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
                 text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                text-indent:-1.5em;'>В разные годы в турнире участвовали будущие звезды конькобежного спорта, заслуженные мастера спорта России и СССР:</span>
+                text-indent:-1.5em;'>В программе соревнования по конькобежному спорту и мастер-классы от известных фигуристов.</span>
                 </br>
                 </br>
-                  <ul style="margin-left: 2em">
-                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Валерий Муратов, трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России; </li>
-                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Светлана Журова, олимпийская чемпионка;</li>
-                      <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Дмитрий Дорофеев, серебряный призёр олимпийских игр;</li>
-                      <li style='fontFamily: "Gotham Pro Light";' data-mce-style='fontFamily: "Gotham Pro Light";'>Екатерина Лобышева, бронзовый призёр в командной гонке на Олимпийских играх и другие.</li>
-                  </ul>
+                <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+                text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+                text-indent:-1.5em;'>Подробная информация станет доступна 15 декабря.</span>
               </div>`,
             }}
           />
@@ -109,21 +105,17 @@ const About = ({ isMobile }: Props) => {
                   <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
                   text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
                   text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
-                  России. Мероприятие ежегодно объединяет сотни любителей
-                  конькобежного спорта.</span>
+                  России.</span>
                   </br>
                   </br>
                   <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
                   text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                  text-indent:-1.5em;'>В разные годы в турнире участвовали будущие звезды конькобежного спорта, заслуженные мастера спорта России и СССР:</span>
+                  text-indent:-1.5em;'>В программе соревнования по конькобежному спорту и мастер-классы от известных фигуристов.</span>
                   </br>
                   </br>
-                    <ul style="margin-left: 2em">
-                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Валерий Муратов, трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России; </li>
-                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Светлана Журова, олимпийская чемпионка;</li>
-                        <li style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";' data-mce-style='margin-bottom: 10px; fontFamily: "Gotham Pro Light";'>Дмитрий Дорофеев, серебряный призёр олимпийских игр;</li>
-                        <li style='fontFamily: "Gotham Pro Light";' data-mce-style='fontFamily: "Gotham Pro Light";'>Екатерина Лобышева, бронзовый призёр в командной гонке на Олимпийских играх и другие.</li>
-                    </ul>
+                  <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+                  text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+                  text-indent:-1.5em;'>Подробная информация станет доступна 15 декабря.</span>
                 </div>`,
                 }}
               />

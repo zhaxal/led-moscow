@@ -9,16 +9,16 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <meta property="og:title" content="Лёд надежды нашей 2024" />
+        <meta property="og:title" content="Лёд надежды нашей" />
         <meta
           property="description"
           content="«Лёд надежды нашей» – одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта."
         />
-        <meta property="og:url" content="https://led.moscow.sport/" />
+        <meta property="og:url" content="https://led.sport.mos.ru/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/images/icelogo.png" />
         <link rel="icon" href="/icelogo.ico" />
-        <title>Лёд надежды нашей 2024</title>
+        <title>Лёд надежды нашей 2025</title>
         <meta name="yandex-verification" content="683c73cabb64ee20" />
       </Head>
       <Script
