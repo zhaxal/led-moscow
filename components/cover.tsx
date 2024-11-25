@@ -254,6 +254,7 @@ const Cover = ({ isMobile }: Props) => {
             sx={{
               position: "absolute",
               minHeight: "34px",
+              minWidth: "189px",
               justifyContent: "center",
             }}
           >
