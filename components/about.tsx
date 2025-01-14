@@ -56,7 +56,7 @@ const About = ({ isMobile }: Props) => {
                 </br>
                 <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
                 text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                text-indent:-1.5em;'>Подробная информация станет доступна 15 декабря.</span>
+                text-indent:-1.5em;'>Подробная информация станет доступна 20 января.</span>
               </div>`,
             }}
           />
@@ -115,7 +115,7 @@ const About = ({ isMobile }: Props) => {
                   </br>
                   <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
                   text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                  text-indent:-1.5em;'>Подробная информация станет доступна 15 декабря.</span>
+                  text-indent:-1.5em;'>Подробная информация станет доступна 20 января.</span>
                 </div>`,
                 }}
               />
