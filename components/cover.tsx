@@ -116,7 +116,7 @@ const Cover = ({ isMobile }: Props) => {
                     color: "white",
                   }}
                 >
-                  1 ФЕВРАЛЯ
+                  2 ФЕВРАЛЯ
                 </Typography>
               </Stack>
               <Typography
@@ -268,7 +268,7 @@ const Cover = ({ isMobile }: Props) => {
                 color: "white",
               }}
             >
-              1 ФЕВРАЛЯ
+              2 ФЕВРАЛЯ
             </Typography>
           </Stack>
           <Typography
