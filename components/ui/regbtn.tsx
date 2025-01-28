@@ -50,7 +50,7 @@ const RegBtn: React.FC<Props> = memo(({ onClick, isMobile }) => {
                 : "none",
             }}
           >
-            РЕЗУЛЬТАТЫ
+            ЗАРЕГИСТРИРОВАТЬСЯ
           </Typography>
         </Stack>
       </Stack>

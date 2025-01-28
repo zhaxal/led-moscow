@@ -12,7 +12,7 @@ const Family = ({ isMobile }: Props) => {
   return isMobile ? (
     <Container maxWidth={"lg"} disableGutters sx={{ mt: "82px" }}>
       <Box>
-        <Header isMobile={isMobile} text="СЕМЕЙНЫЕ «ЗИМНИЕ СТАРТЫ»" />
+        <Header isMobile={isMobile} text="беговелогонка и " />
       </Box>
       <Box
         mt={"80px"}
@@ -50,46 +50,19 @@ const Family = ({ isMobile }: Props) => {
               >
                 <div>
                   <p style={{ textIndent: "30px" }}>
-                    В&nbsp;рамках соревнований состоится семейная конькобежная
-                    эстафета &laquo;ЗИМНИЕ СТАРТЫ&raquo;:
+                    В рамках соревнований состоятся БЕГОВЕЛОГОНКА на ЛЬДУ и
+                    ГОНКИ на коньках для детей от 4 до 8 лет:
                   </p>
                   <br />
                   <p style={{ textIndent: "30px" }}>
-                    К&nbsp;участию в&nbsp;соревнованиях допускаются сборные
-                    семейные команды города Москвы. команда в&nbsp;составе:
-                    мама, папа и&nbsp;ребенок. Эстафета пройдет в&nbsp;4-ех
-                    возрастных категориях (по&nbsp;возрасту ребенка):
+                    Участники приглашаются со своими беговелами, коньками иё
+                    шлемами.
                   </p>
-                  <div style={{ paddingLeft: "30px" }}>
-                    <p>4-6 лет</p>
-                    <p>7-8 лет</p>
-                    <p>9-10 лет</p>
-                    <p>11-12 лет</p>
-                  </div>
                   <br />
-                  <div style={{ paddingLeft: "30px" }}>
-                    <p style={{ fontFamily: "Gotham Pro Medium" }}>
-                      <strong>Участникам необходимо с&nbsp;собой иметь:</strong>
-                    </p>
-
-                    <ol>
-                      <li>
-                        Документ, удостоверяющий личность, подтверждающий
-                        родство, адрес и&nbsp;возраст ребенка.
-                      </li>
-                      <br />
-                      <li>
-                        Допуск врача для участия в&nbsp;соревнованиях
-                        (в&nbsp;общей заявке или в&nbsp;виде отдельной справки).
-                      </li>
-                      <br />
-                      <li>
-                        Страховое свидетельство от&nbsp;несчастного случая.
-                      </li>
-                      <br />
-                      <li>Шлем, комплект спортивной одежды и&nbsp;коньки.</li>
-                    </ol>
-                  </div>
+                  <p style={{ textIndent: "30px" }}>
+                    ВНИМАНИЕ! УСТРОЙСТА ПРОТИВОСКОЛЬЖЕНИЯ ДЛЯ БОТИНОК И ПОКРЫШЕК
+                    БЕГОВЕЛОВ ЗАПРЕЩЕНЫ.
+                  </p>
                 </div>
               </Box>
 
@@ -110,7 +83,7 @@ const Family = ({ isMobile }: Props) => {
               alignItems="center"
               justifyContent="center"
             >
-              <Typography
+              {/* <Typography
                 sx={{
                   color: "white",
                   textDecoration: "underline",
@@ -121,7 +94,7 @@ const Family = ({ isMobile }: Props) => {
                 }}
               >
                 РЕГЛАМЕНТ ЭСТАФЕТЫ
-              </Typography>
+              </Typography> */}
             </Stack>
 
             <Box
@@ -136,7 +109,7 @@ const Family = ({ isMobile }: Props) => {
                 isMobile={isMobile}
                 onClick={() => {
                   window
-                    .open("https://disk.yandex.ru/d/5NmRhM7qY5sdBQ", "_blank")
+                    .open("https://forms.gle/rGGhJFpBQ6AuF5qXA", "_blank")
                     ?.focus();
                 }}
               />
@@ -148,7 +121,7 @@ const Family = ({ isMobile }: Props) => {
   ) : (
     <Box sx={{ mt: "90px", width: "100%" }}>
       <Stack spacing={"56px"}>
-        <Header isMobile={isMobile} text="СЕМЕЙНЫЕ «ЗИМНИЕ СТАРТЫ»" />
+        <Header isMobile={isMobile} text="беговелогонка и" />
         <Box
           mt={"30px"}
           sx={{
@@ -182,44 +155,19 @@ const Family = ({ isMobile }: Props) => {
             />
             <div>
               <p style={{ textIndent: "30px" }}>
-                В&nbsp;рамках соревнований состоится семейная конькобежная
-                эстафета &laquo;ЗИМНИЕ СТАРТЫ&raquo;:
+                В рамках соревнований состоятся БЕГОВЕЛОГОНКА на ЛЬДУ и ГОНКИ на
+                коньках для детей от 4 до 8 лет:
               </p>
               <br />
               <p style={{ textIndent: "30px" }}>
-                К&nbsp;участию в&nbsp;соревнованиях допускаются сборные семейные
-                команды города Москвы. команда в&nbsp;составе: мама, папа
-                и&nbsp;ребенок. Эстафета пройдет в&nbsp;4-ех возрастных
-                категориях (по&nbsp;возрасту ребенка):
+                Участники приглашаются со своими беговелами, коньками иё
+                шлемами.
               </p>
-              <div style={{ paddingLeft: "30px" }}>
-                <p>4-6 лет</p>
-                <p>7-8 лет</p>
-                <p>9-10 лет</p>
-                <p>11-12 лет</p>
-              </div>
               <br />
-              <div style={{ paddingLeft: "30px" }}>
-                <p style={{ fontFamily: "Gotham Pro Medium" }}>
-                  <strong>Участникам необходимо с&nbsp;собой иметь:</strong>
-                </p>
-
-                <ol>
-                  <li>
-                    Документ, удостоверяющий личность, подтверждающий родство,
-                    адрес и&nbsp;возраст ребенка.
-                  </li>
-                  <br />
-                  <li>
-                    Допуск врача для участия в&nbsp;соревнованиях (в&nbsp;общей
-                    заявке или в&nbsp;виде отдельной справки).
-                  </li>
-                  <br />
-                  <li>Страховое свидетельство от&nbsp;несчастного случая.</li>
-                  <br />
-                  <li>Шлем, комплект спортивной одежды и&nbsp;коньки.</li>
-                </ol>
-              </div>
+              <p style={{ textIndent: "30px" }}>
+                ВНИМАНИЕ! УСТРОЙСТА ПРОТИВОСКОЛЬЖЕНИЯ ДЛЯ БОТИНОК И ПОКРЫШЕК
+                БЕГОВЕЛОВ ЗАПРЕЩЕНЫ.
+              </p>
             </div>
             <Stack
               component="a"
@@ -230,18 +178,7 @@ const Family = ({ isMobile }: Props) => {
               alignItems="center"
               justifyContent="center"
             >
-              <Typography
-                sx={{
-                  color: "white",
-                  textDecoration: "underline",
-                  fontSize: "16px",
-                  lineHeight: "16px",
-                  fontFamily: "Gotham Pro Medium",
-                  textAlign: "center",
-                }}
-              >
-                РЕГЛАМЕНТ ЭСТАФЕТЫ
-              </Typography>
+
             </Stack>
           </Stack>
 
@@ -257,7 +194,7 @@ const Family = ({ isMobile }: Props) => {
               isMobile={isMobile}
               onClick={() => {
                 window
-                  .open("https://disk.yandex.ru/d/5NmRhM7qY5sdBQ", "_blank")
+                  .open("https://forms.gle/rGGhJFpBQ6AuF5qXA", "_blank")
                   ?.focus();
               }}
             />

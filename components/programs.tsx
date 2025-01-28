@@ -43,13 +43,13 @@ const Programs = ({ isMobile }: Props) => {
             <Date
               dateFrom="8:00"
               dateTo="9:00"
-              desc="Регистрация участников, жеребьёвка"
+              desc="Работа комиссии по допуску участников к соревнованиям"
               isMobile={isMobile}
             />
             <Date
               dateFrom="9:00"
               dateTo="9:15"
-              desc="Открытие соревнований"
+              desc="Торжественное открытие"
               isMobile={isMobile}
             />
             <Date
@@ -74,30 +74,6 @@ const Programs = ({ isMobile }: Props) => {
               спортсмена).
             </Typography>
             <Date dateFrom="12:00" desc="Награждение" isMobile={isMobile} />
-            <Date
-              dateFrom="13:00"
-              dateTo="13:30"
-              desc="Мастер-класс Анны Погорилой"
-              isMobile={isMobile}
-            />
-            <Date
-              dateFrom="13:45"
-              dateTo="14:15"
-              desc="Мастер-класс  Александра Энберта"
-              isMobile={isMobile}
-            />
-            <Typography
-              sx={{
-                fontFamily: "Gotham Pro Light",
-                color: "white",
-                fontSize: "16px",
-                lineHeight: "15px",
-                fontWeight: 500,
-              }}
-              dangerouslySetInnerHTML={{
-                __html: `<strong>Важно:</strong> Результаты фиксируются с помощью программы хронометража циклических видов спорта «L-SPORT»`,
-              }}
-            ></Typography>
           </Stack>
         </Stack>
         <Box
@@ -107,16 +83,7 @@ const Programs = ({ isMobile }: Props) => {
             right: "3%",
             width: "543px",
           }}
-        >
-          <RegBtn
-            isMobile={isMobile}
-            onClick={() => {
-              window
-                .open("https://disk.yandex.ru/d/5NmRhM7qY5sdBQ", "_blank")
-                ?.focus();
-            }}
-          />
-        </Box>
+        ></Box>
       </Box>
     </Container>
   ) : (
@@ -145,13 +112,13 @@ const Programs = ({ isMobile }: Props) => {
             <Date
               dateFrom="8:00"
               dateTo="9:00"
-              desc="Регистрация участников, жеребьёвка"
+              desc="Работа комиссии по допуску участников к соревнованиям"
               isMobile={isMobile}
             />
             <Date
               dateFrom="9:00"
               dateTo="9:15"
-              desc="Открытие соревнований"
+              desc="Торжественное открытие"
               isMobile={isMobile}
             />
             <Date
@@ -176,48 +143,6 @@ const Programs = ({ isMobile }: Props) => {
               спортсмена).
             </Typography>
             <Date dateFrom="12:00" desc="Награждение" isMobile={isMobile} />
-            <Date
-              dateFrom="13:00"
-              dateTo="13:30"
-              desc="Мастер-класс Анны Погорилой"
-              isMobile={isMobile}
-            />
-            <Date
-              dateFrom="13:45"
-              dateTo="14:15"
-              desc="Мастер-класс  Александра Энберта"
-              isMobile={isMobile}
-            />
-            <Typography
-              sx={{
-                fontFamily: "Gotham Pro Light",
-                color: "white",
-                fontSize: "14px",
-                lineHeight: "15px",
-                fontWeight: 500,
-              }}
-              dangerouslySetInnerHTML={{
-                __html: `<strong>Важно:</strong> Результаты фиксируются с помощью программы хронометража циклических видов спорта «L-SPORT»`,
-              }}
-            />
-            <Stack
-              sx={{
-                position: "absolute",
-                bottom: "-50px",
-                width: "100%",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <RegBtn
-                isMobile={isMobile}
-                onClick={() => {
-                  window
-                    .open("https://disk.yandex.ru/d/5NmRhM7qY5sdBQ", "_blank")
-                    ?.focus();
-                }}
-              />
-            </Stack>
           </Stack>
         </Box>
       </Stack>

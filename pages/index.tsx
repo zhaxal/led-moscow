@@ -85,10 +85,9 @@ export default function Home() {
         </noscript>
         <Cover isMobile={matches} />
         <About isMobile={matches} />
-        {/* <Programs isMobile={matches} />
-        <Participants isMobile={matches} />
-        <Master isMobile={matches} />
-        <Tutorial isMobile={matches} />
+        <Programs isMobile={matches} />
+        <Family isMobile={matches} />
+        {/*
         <Gallery
           isMobile={matches}
           items={[
@@ -100,7 +99,8 @@ export default function Home() {
             "https://placehold.co/400",
           ]}
         />
-        <Footer isMobile={matches} /> */}
+        */}
+        <Footer isMobile={matches} />
       </Box>
     </>
 

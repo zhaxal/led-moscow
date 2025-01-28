@@ -17,7 +17,7 @@ const Footer = ({ isMobile }: Props) => {
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A386f4d75d3a9b20360536d057c2e1cb2042f5c49d65c4ba2becf0e34d2bd330d&amp;source=constructor"
         width="100%"
         height="768px"
-        frameBorder="0px"
+        style={{ border: "none" }}
       />
       <Box
         sx={{
@@ -39,7 +39,7 @@ const Footer = ({ isMobile }: Props) => {
 
           <Stack spacing={"50px"}>
             <Box>
-              <Typography
+              {/* <Typography
                 sx={{
                   fontFamily: "Gotham Pro Regular",
                   fontWeight: 700,
@@ -57,7 +57,7 @@ const Footer = ({ isMobile }: Props) => {
                 >
                   Положение о проведении
                 </a>
-              </Typography>
+              </Typography> */}
             </Box>
             <Box>
               <Typography
@@ -115,7 +115,7 @@ const Footer = ({ isMobile }: Props) => {
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A386f4d75d3a9b20360536d057c2e1cb2042f5c49d65c4ba2becf0e34d2bd330d&amp;source=constructor"
         width="100%"
         height="1026px"
-        frameBorder="0px"
+        style={{ border: "none" }}
       />
       <Box
         sx={{
@@ -139,7 +139,7 @@ const Footer = ({ isMobile }: Props) => {
         >
           <IceIcon isMobile={isMobile} />
           <Stack spacing={"50px"} sx={{ width: "100%" }}>
-            <Typography
+            {/* <Typography
               sx={{
                 fontFamily: "Gotham Pro Regular",
                 fontWeight: 700,
@@ -157,7 +157,7 @@ const Footer = ({ isMobile }: Props) => {
               >
                 Положение о проведении
               </a>
-            </Typography>
+            </Typography> */}
             <Box>
               <Typography
                 sx={{
