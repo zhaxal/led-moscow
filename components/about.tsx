@@ -26,7 +26,7 @@ const About = ({ isMobile }: Props) => {
       >
         <Stack
           sx={{
-            width: "40%",
+            width: "50%",
             height: "80%",
             ml: "150px",
             justifyContent: "center",
@@ -43,20 +43,29 @@ const About = ({ isMobile }: Props) => {
             dangerouslySetInnerHTML={{
               __html: `
               <div>
-                <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
-                text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
-                text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
-                России.</span>
-                </br>
-                </br>
-                <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
-                text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                text-indent:-1.5em;'>В программе соревнования по конькобежному спорту и мастер-классы от известных фигуристов.</span>
-                </br>
-                </br>
-                <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
-                text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                text-indent:-1.5em;'>Подробная информация станет доступна 20 января.</span>
+          <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+          text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
+          text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span> — одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта.</span>
+          </br>
+          <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+          text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+          text-indent:-1.5em;'>В разные годы в турнире участвовали будущие звезды конькобежного спорта, заслуженные мастера спорта России и СССР:</span>
+          </br>
+          <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+          text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+          text-indent:-1.5em;'>Валерий Муратов, трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России;</span>
+          </br>
+          <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+          text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+          text-indent:-1.5em;'>Светлана Журова, олимпийская чемпионка;</span>
+          </br>
+          <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+          text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+          text-indent:-1.5em;'>Дмитрий Дорофеев, серебряный призёр олимпийских игр;</span>
+          </br>
+          <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+          text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+          text-indent:-1.5em;'>Екатерина Лобышева, бронзовый призёр в командной гонке на Олимпийских играх и другие.</span>
               </div>`,
             }}
           />
@@ -102,21 +111,30 @@ const About = ({ isMobile }: Props) => {
                 dangerouslySetInnerHTML={{
                   __html: `
                   <div>
-                  <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
-                  text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
-                  text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span>  –   одно из старейших конькобежных состязаний в
-                  России.</span>
-                  </br>
-                  </br>
-                  <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
-                  text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                  text-indent:-1.5em;'>В программе соревнования по конькобежному спорту и мастер-классы от известных фигуристов.</span>
-                  </br>
-                  </br>
-                  <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
-                  text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
-                  text-indent:-1.5em;'>Подробная информация станет доступна 20 января.</span>
-                </div>`,
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+              text-indent:-1.5em;' data-mce-style='margin-bottom: 10px;padding-left: 1.5em;
+              text-indent:-1.5em;'><span style='font-weight: 415px; font-family: "Gotham Pro Medium"' data-mce-style='font-weight: 415px; font-family: "Gotham Pro Medium"'>«Лёд надежды нашей»</span> — одно из старейших конькобежных состязаний в России. Мероприятие ежегодно объединяет сотни любителей конькобежного спорта.</span>
+              </br>
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+              text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+              text-indent:-1.5em;'>В разные годы в турнире участвовали будущие звезды конькобежного спорта, заслуженные мастера спорта России и СССР:</span>
+              </br>
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+              text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+              text-indent:-1.5em;'>Валерий Муратов, трехкратный призер Олимпийских игр по конькобежному спорту, главный тренер сборной России;</span>
+              </br>
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+              text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+              text-indent:-1.5em;'>Светлана Журова, олимпийская чемпионка;</span>
+              </br>
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+              text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+              text-indent:-1.5em;'>Дмитрий Дорофеев, серебряный призёр олимпийских игр;</span>
+              </br>
+              <span style='margin-bottom: 10px; line-height: 20px; padding-left: 1.5em;
+              text-indent:-1.5em;' data-mce-style='margin-bottom: 10px; padding-left: 1.5em;
+              text-indent:-1.5em;'>Екатерина Лобышева, бронзовый призёр в командной гонке на Олимпийских играх и другие.</span>
+                  </div>`,
                 }}
               />
             </Stack>

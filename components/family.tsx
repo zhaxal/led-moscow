@@ -12,7 +12,7 @@ const Family = ({ isMobile }: Props) => {
   return isMobile ? (
     <Container maxWidth={"lg"} disableGutters sx={{ mt: "82px" }}>
       <Box>
-        <Header isMobile={isMobile} text="беговелогонка и " />
+        <Header isMobile={isMobile} text="беговелогонка и детские коньки" />
       </Box>
       <Box
         mt={"80px"}
@@ -121,7 +121,7 @@ const Family = ({ isMobile }: Props) => {
   ) : (
     <Box sx={{ mt: "90px", width: "100%" }}>
       <Stack spacing={"56px"}>
-        <Header isMobile={isMobile} text="беговелогонка и" />
+        <Header isMobile={isMobile} text="беговелогонка и детские коньки" />
         <Box
           mt={"30px"}
           sx={{
